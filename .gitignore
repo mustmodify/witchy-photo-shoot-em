@@ -1,0 +1,6 @@
+reference/
+docs/
+scripts/__pycache__/
+.claude/
+PLAN.md
+assets/preview.html

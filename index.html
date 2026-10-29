@@ -1,0 +1,1022 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Witchy Photo Shoot with Em</title>
+<style>[hidden]{display:none!important}</style>
+<meta name="description" content="Review album: 413 picked frames from the 5 October 2026 shoot. Tap a photo, send me the numbers.">
+<meta name="theme-color" content="#15130f">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Witchy Photo Shoot with Em">
+<meta property="og:description" content="Review album: 413 picked frames from the 5 October 2026 shoot. Tap a photo, send me the numbers.">
+<meta property="og:url" content="https://mustmodify.github.io/witchy-photo-shoot-em/">
+<meta property="og:image" content="https://mustmodify.github.io/witchy-photo-shoot-em/images/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Witchy Photo Shoot with Em">
+<meta name="twitter:description" content="Review album: 413 picked frames from the 5 October 2026 shoot. Tap a photo, send me the numbers.">
+<meta name="twitter:image" content="https://mustmodify.github.io/witchy-photo-shoot-em/images/og-card.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #15130f; --ink-2: #1f1b17; --line: #3a342c; --bone: #e9dfc8;
+  --bone-dim: #b5a98f; --gold: #c9a24a; --plum: #4a2f52;
+  --font-display: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+  --font-label: "Cinzel", "Cormorant SC", Georgia, serif;
+  --font-body: "EB Garamond", Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+body { margin: 0; background: var(--ink); color: var(--bone); font-family: var(--font-body); font-size: 1.1rem; line-height: 1.6; font-synthesis: none; }
+body::before { content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none; background: var(--bone); opacity: .05;
+  -webkit-mask-image: url(assets/stars-pattern.svg); mask-image: url(assets/stars-pattern.svg); -webkit-mask-size: 240px; mask-size: 240px; }
+body.lb-open { overflow: hidden; }
+main, footer { position: relative; z-index: 1; }
+svg { color: var(--bone); }
+.label { font-family: var(--font-label); font-weight: 400; letter-spacing: .18em; text-transform: uppercase; font-size: .72rem; color: var(--bone-dim); margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; font-synthesis: none; margin: 0; }
+
+/* hero */
+.hero { position: relative; min-height: 100svh; overflow: hidden; background: var(--ink); z-index: 1; }
+.hero picture, .hero picture img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero-fade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 55%, var(--ink) 100%); }
+.strand { position: absolute; top: 0; color: var(--bone); opacity: .85; filter: drop-shadow(0 0 2px rgba(0,0,0,.8)); }
+.strand svg { height: 100%; width: auto; display: block; }
+.s1 { left: 8%; height: 180px; } .s2 { right: 12%; height: 120px; } .s3 { right: 22%; height: 240px; }
+.orb { filter: drop-shadow(0 0 2px rgba(0,0,0,.8)); position: absolute; top: 18px; width: 44px; height: 44px; }
+.orb svg { width: 44px; height: 44px; display: block; }
+.moon { left: 18px; } .sun { right: 18px; }
+.hero-text { position: absolute; left: clamp(18px, 5vw, 64px); right: 18px; bottom: clamp(28px, 7vh, 72px);
+  text-shadow: 0 1px 0 rgba(0,0,0,.6), 0 0 24px rgba(0,0,0,.55); animation: rise .4s ease-out both; }
+.hero-text .label { color: var(--bone); }
+.hero h1 { font-size: clamp(2.4rem, 7vw, 5.5rem); line-height: 1.02; margin: .3rem 0 .6rem; }
+.hero .meta { margin: 0; font-style: italic; }
+@keyframes rise { from { opacity: 0; } to { opacity: 1; } }
+
+/* how */
+.how { text-align: center; max-width: 640px; margin: 0 auto; padding: 36px 18px 8px; }
+.how p { margin: 0 0 18px; color: var(--bone-dim); }
+.divider { display: block; margin: 28px auto; width: min(60%, 420px); height: auto; color: var(--bone-dim); }
+
+/* index */
+.index { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 6px 22px; justify-content: center;
+  padding: 10px 14px; background: rgba(21,19,15,.92); border-bottom: 1px solid var(--line); }
+@media (max-width: 800px) { .index { position: static; } }
+.index a { display: inline-flex; align-items: center; gap: 8px; color: var(--bone); text-decoration: none;
+  font-family: var(--font-label); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; padding: 6px 2px; }
+.index a small { color: var(--bone-dim); font-size: .68rem; }
+.index .ci { width: 28px; height: 28px; }
+.index a:hover, .index a.active { color: var(--gold); }
+.index a.active svg, .index a:hover svg { color: var(--gold); }
+
+/* chapters */
+.chapter { max-width: 1500px; margin: 0 auto; padding: 56px 18px 8px; }
+.ch-head { text-align: center; margin-bottom: 30px; }
+.ch-icon { width: 64px; height: 64px; margin: 0 auto 8px; display: block; }
+.ch-head h2 { font-size: clamp(2rem, 4vw, 3rem); margin: .2rem 0; }
+.deck { margin: 0 auto; max-width: 560px; font-style: italic; color: var(--bone-dim); }
+.count { margin: 6px 0 0; font-size: .9rem; color: var(--bone-dim); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); grid-auto-flow: dense; gap: 14px; }
+.movement { grid-column: 1 / -1; text-align: center; padding: 22px 0 4px; font-size: .72rem; font-family: var(--font-label); color: var(--gold); letter-spacing: .18em; }
+.frame { margin: 0; }
+.frame.wide { grid-column: span 2; }
+.frame a { display: block; line-height: 0; outline: 1px solid transparent; outline-offset: 0; }
+.frame a:hover, .frame a:focus-visible { outline-color: var(--gold); }
+.frame img { width: 100%; height: auto; display: block; background: var(--ink-2); }
+.frame figcaption { font-family: var(--font-label); font-size: .68rem; letter-spacing: .14em; color: var(--bone-dim); padding-top: 4px; }
+.frame:hover figcaption { color: var(--gold); }
+@media (max-width: 480px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } .frame.wide { grid-column: span 2; } }
+
+/* footer */
+footer { text-align: center; border-top: 1px solid var(--line); margin-top: 56px; padding: 32px 18px 48px; }
+.icons { display: flex; gap: 22px; justify-content: center; margin-bottom: 14px; }
+.fi { width: 22px; height: 22px; color: var(--bone-dim); }
+footer p { margin: 0; font-size: .9rem; color: var(--bone-dim); }
+
+/* lightbox */
+#lightbox { position: fixed; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 0; border: 0;
+  background: var(--ink-2); color: var(--bone); display: flex; align-items: center; justify-content: center; animation: rise .2s ease-out; }
+#lightbox[hidden] { display: none; }
+#lb-img { max-height: 92svh; max-width: 94vw; width: auto; height: auto; object-fit: contain; user-select: none; }
+.lb-bar { position: absolute; top: 0; left: 0; right: 0; display: flex; justify-content: space-between; align-items: center; padding: 8px 12px 8px 18px;
+  font-family: var(--font-label); font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--bone-dim); z-index: 2; }
+#lightbox button { background: none; border: 0; color: var(--bone); cursor: pointer; font-size: 2rem; line-height: 1; width: 44px; height: 44px; }
+#lightbox button:hover, #lightbox button:focus-visible { color: var(--gold); }
+.lb-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; }
+.lb-nav.prev { left: 4px; } .lb-nav.next { right: 4px; }
+.lb-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--line); }
+.lb-progress i { display: block; height: 100%; background: var(--gold); width: 0; }
+@media (prefers-reduced-motion: reduce) { #lightbox, .hero-text { animation: none; } html { scroll-behavior: auto; } }
+@media (max-width: 600px) { .strand { display: none; } }
+
+</style>
+</head>
+<body>
+<header class="hero">
+<picture>
+<source media="(min-width: 700px)" srcset="images/hero-landscape.jpg" width="1600" height="900">
+<img src="images/_T1A0663.jpg" width="1067" height="1600" alt="Em in the black dress and wide-brimmed hat">
+</picture>
+<div class="hero-fade"></div>
+<div class="strand s1"><svg class="" aria-hidden="true" focusable="false" viewBox="0 0 24 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 0v18"/>
+  <circle cx="12" cy="20" r="2"/>
+  <path d="M12 22v4"/>
+  <path d="M12 26l5 8-5 16-5-16z"/>
+  <path d="M7 34h10M12 26v24M9.5 34l2.5 16M14.5 34L12 50"/>
+  <path d="M12 50v14"/>
+  <path d="M12 64c-3 4-3 9 0 11c3-2 3-7 0-11z"/>
+  <path d="M12 75v12"/>
+  <path d="M12 87l1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5z"/>
+  <path d="M12 96v10"/>
+  <circle cx="12" cy="108" r="1.2" fill="currentColor"/>
+</svg></div><div class="strand s2"><svg class="" aria-hidden="true" focusable="false" viewBox="0 0 24 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 0v18"/>
+  <circle cx="12" cy="20" r="2"/>
+  <path d="M12 22v4"/>
+  <path d="M12 26l5 8-5 16-5-16z"/>
+  <path d="M7 34h10M12 26v24M9.5 34l2.5 16M14.5 34L12 50"/>
+  <path d="M12 50v14"/>
+  <path d="M12 64c-3 4-3 9 0 11c3-2 3-7 0-11z"/>
+  <path d="M12 75v12"/>
+  <path d="M12 87l1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5z"/>
+  <path d="M12 96v10"/>
+  <circle cx="12" cy="108" r="1.2" fill="currentColor"/>
+</svg></div><div class="strand s3"><svg class="" aria-hidden="true" focusable="false" viewBox="0 0 24 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 0v18"/>
+  <circle cx="12" cy="20" r="2"/>
+  <path d="M12 22v4"/>
+  <path d="M12 26l5 8-5 16-5-16z"/>
+  <path d="M7 34h10M12 26v24M9.5 34l2.5 16M14.5 34L12 50"/>
+  <path d="M12 50v14"/>
+  <path d="M12 64c-3 4-3 9 0 11c3-2 3-7 0-11z"/>
+  <path d="M12 75v12"/>
+  <path d="M12 87l1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5z"/>
+  <path d="M12 96v10"/>
+  <circle cx="12" cy="108" r="1.2" fill="currentColor"/>
+</svg></div>
+<div class="orb moon"><svg class="" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M32 8A24 24 0 1 0 32 56A26 26 0 0 1 32 8z"/>
+  <path d="M10.5 27c1.2-1.3 2.8-1.3 4 0"/>
+  <path d="M11.5 38c1 .8 2.5 .8 3.5 0"/>
+  <path d="M15.5 31c1 1 1 2.5 0 3.5"/>
+  <circle cx="11" cy="33" r="0.7" fill="currentColor"/>
+  <path d="M44 14l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M50 30v4M48 32h4"/>
+  <path d="M42 46l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+</svg></div>
+<div class="orb sun"><svg class="" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="32" cy="32" r="11"/>
+  <path d="M32 6v8M32 50v8M6 32h8M50 32h8"/>
+  <path d="M13.6 13.6l5.7 5.7M44.7 44.7l5.7 5.7M13.6 50.4l5.7-5.7M44.7 19.3l5.7-5.7"/>
+  <path d="M22 8.5l2.5 5.5M39.5 50l2.5 5.5M8.5 22l5.5 2.5M50 39.5l5.5 2.5M8.5 42l5.5-2.5M50 24.5l5.5-2.5M22 55.5l2.5-5.5M39.5 14l2.5-5.5"/>
+  <path d="M26.5 30c1.2-1.2 2.8-1.2 4 0M33.5 30c1.2-1.2 2.8-1.2 4 0"/>
+  <path d="M32 31v4"/>
+  <path d="M28 37c2 1.8 6 1.8 8 0"/>
+</svg></div>
+<div class="hero-text">
+<p class="label">A review album</p>
+<h1>Witchy Photo Shoot with Em</h1>
+<p class="meta">5 October 2026 · 413 picks · photographs by JW</p>
+</div>
+</header>
+<main>
+<section class="how">
+<p>Tap any photo to open it. Arrow keys or swipe to move, Esc to close. Every frame shows its number; send me the numbers you love and the ones to drop.</p>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+</section>
+<nav class="index" aria-label="Chapters">
+<a href="#the-gathering" data-target="the-gathering"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M30 57c0-14 1-30 7-45"/>
+  <path d="M31 47c-7-1-11-5-11-12c7 0 11 4 11 12z"/>
+  <path d="M32 40c7-1 11-5 11-12c-7 0-11 4-11 12z"/>
+  <path d="M33 31c-6-1-9-4-9-10c6 0 9 3 9 10z"/>
+  <path d="M34.5 24c6-1 9-4 9-10c-6 0-9 3-9 10z"/>
+  <path d="M36 17c-4-1-6-3-6-8c4 0 6 2 6 8z"/>
+  <path d="M26 54h8"/>
+</svg><span>The Gathering</span><small>209</small></a>
+<a href="#first-smoke" data-target="first-smoke"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="32" cy="27" rx="17" ry="4"/>
+  <path d="M15 27c0 10 6 19 17 19s17-9 17-19"/>
+  <path d="M15 27l-4-3M49 27l4-3"/>
+  <path d="M24 45l-3 7M40 45l3 7M32 46v6"/>
+  <path d="M25 19c-2-3 2-5 0-8M32 17c-2-3 2-5 0-8M39 19c-2-3 2-5 0-8"/>
+  <path d="M47 11l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M16 13v4M14 15h4"/>
+</svg><span>First Smoke</span><small>15</small></a>
+<a href="#the-cauldron" data-target="the-cauldron"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="32" cy="45" rx="21" ry="5.5"/>
+  <path d="M20 42c3-10 8-22 21-32c-2 8-1 15 3 21c2 3 4 7 5 11"/>
+  <path d="M21 39c6 2.5 20 2.5 27 0"/>
+  <path d="M27 36c3 1 7 1 10 0"/>
+  <path d="M50 10l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M12 20v4M10 22h4"/>
+</svg><span>The Cauldron</span><small>91</small></a>
+<a href="#low-fire" data-target="low-fire"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M26 26h12v24H26z"/>
+  <path d="M26 30c2 3 4 4 4 8M38 33c-2 2-3 4-2 7"/>
+  <path d="M32 26v-4"/>
+  <path d="M32 22c-4-4-3-10 0-13c3 3 4 9 0 13z"/>
+  <path d="M32 19c-1.5-1.5-1-4 0-5c1 1 1.5 3.5 0 5z"/>
+  <path d="M22 50h20M24 50v4h16v-4"/>
+  <path d="M46 14l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M16 18v4M14 20h4"/>
+</svg><span>Low Fire</span><small>23</small></a>
+<a href="#iron-and-smoke" data-target="iron-and-smoke"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="32" cy="28" r="14"/>
+  <path d="M23 25c1-4 4-7 8-8"/>
+  <path d="M37 21l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M28 32v2M35 34v2"/>
+  <path d="M22 44h20l-2 6H24z"/>
+  <path d="M18 54h28"/>
+  <path d="M10 28h4M50 28h4M16 14l3 3M48 14l-3 3M32 6v4"/>
+</svg><span>Iron &amp; Smoke</span><small>47</small></a>
+<a href="#the-witch" data-target="the-witch"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M32 8A24 24 0 1 0 32 56A26 26 0 0 1 32 8z"/>
+  <path d="M10.5 27c1.2-1.3 2.8-1.3 4 0"/>
+  <path d="M11.5 38c1 .8 2.5 .8 3.5 0"/>
+  <path d="M15.5 31c1 1 1 2.5 0 3.5"/>
+  <circle cx="11" cy="33" r="0.7" fill="currentColor"/>
+  <path d="M44 14l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M50 30v4M48 32h4"/>
+  <path d="M42 46l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+</svg><span>The Witch</span><small>16</small></a>
+<a href="#into-the-trees" data-target="into-the-trees"><svg class="ci" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 16A16 16 0 1 0 18 48A20 20 0 0 1 18 16z"/>
+  <circle cx="32" cy="32" r="11"/>
+  <path d="M46 16A16 16 0 1 1 46 48A20 20 0 0 0 46 16z"/>
+  <path d="M32 8v3M32 53v3"/>
+</svg><span>Into the Trees</span><small>12</small></a>
+</nav>
+<section class="chapter" id="the-gathering">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M30 57c0-14 1-30 7-45"/>
+  <path d="M31 47c-7-1-11-5-11-12c7 0 11 4 11 12z"/>
+  <path d="M32 40c7-1 11-5 11-12c-7 0-11 4-11 12z"/>
+  <path d="M33 31c-6-1-9-4-9-10c6 0 9 3 9 10z"/>
+  <path d="M34.5 24c6-1 9-4 9-10c-6 0-9 3-9 10z"/>
+  <path d="M36 17c-4-1-6-3-6-8c4 0 6 2 6 8z"/>
+  <path d="M26 54h8"/>
+</svg>
+<p class="label">Chapter I</p>
+<h2>The Gathering</h2>
+<p class="deck">White dress, basket and herbs. Em works the hillside, gathering what the woods offer.</p>
+<p class="count">209 frames</p>
+</header>
+<div class="grid">
+<h3 class="movement label">Gathering</h3>
+<figure class="frame" class="wide"><a href="images/_T1A9075.jpg" data-w="1600" data-h="1067" data-n="9075" data-chapter="The Gathering"><img src="images/thumbs/_T1A9075.jpg" width="560" height="373" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9075"></a><figcaption>9075</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9076.jpg" data-w="1600" data-h="1067" data-n="9076" data-chapter="The Gathering"><img src="images/thumbs/_T1A9076.jpg" width="560" height="373" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9076"></a><figcaption>9076</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9080.jpg" data-w="1600" data-h="1067" data-n="9080" data-chapter="The Gathering"><img src="images/thumbs/_T1A9080.jpg" width="560" height="373" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9080"></a><figcaption>9080</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9082.jpg" data-w="1600" data-h="1067" data-n="9082" data-chapter="The Gathering"><img src="images/thumbs/_T1A9082.jpg" width="560" height="373" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9082"></a><figcaption>9082</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9094.jpg" data-w="1410" data-h="1600" data-n="9094" data-chapter="The Gathering"><img src="images/thumbs/_T1A9094.jpg" width="493" height="560" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9094"></a><figcaption>9094</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9095.jpg" data-w="1600" data-h="1067" data-n="9095" data-chapter="The Gathering"><img src="images/thumbs/_T1A9095.jpg" width="560" height="373" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9095"></a><figcaption>9095</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9101.jpg" data-w="1067" data-h="1600" data-n="9101" data-chapter="The Gathering"><img src="images/thumbs/_T1A9101.jpg" width="373" height="560" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9101"></a><figcaption>9101</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9102.jpg" data-w="1067" data-h="1600" data-n="9102" data-chapter="The Gathering"><img src="images/thumbs/_T1A9102.jpg" width="373" height="560" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9102"></a><figcaption>9102</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9106.jpg" data-w="1067" data-h="1600" data-n="9106" data-chapter="The Gathering"><img src="images/thumbs/_T1A9106.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9106"></a><figcaption>9106</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9113.jpg" data-w="1067" data-h="1600" data-n="9113" data-chapter="The Gathering"><img src="images/thumbs/_T1A9113.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9113"></a><figcaption>9113</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9120.jpg" data-w="1067" data-h="1600" data-n="9120" data-chapter="The Gathering"><img src="images/thumbs/_T1A9120.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9120"></a><figcaption>9120</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9144.jpg" data-w="1067" data-h="1600" data-n="9144" data-chapter="The Gathering"><img src="images/thumbs/_T1A9144.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9144"></a><figcaption>9144</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9145.jpg" data-w="1067" data-h="1600" data-n="9145" data-chapter="The Gathering"><img src="images/thumbs/_T1A9145.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9145"></a><figcaption>9145</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9146.jpg" data-w="1067" data-h="1600" data-n="9146" data-chapter="The Gathering"><img src="images/thumbs/_T1A9146.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9146"></a><figcaption>9146</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9148.jpg" data-w="1067" data-h="1600" data-n="9148" data-chapter="The Gathering"><img src="images/thumbs/_T1A9148.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9148"></a><figcaption>9148</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9149.jpg" data-w="1067" data-h="1600" data-n="9149" data-chapter="The Gathering"><img src="images/thumbs/_T1A9149.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9149"></a><figcaption>9149</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9150.jpg" data-w="1067" data-h="1600" data-n="9150" data-chapter="The Gathering"><img src="images/thumbs/_T1A9150.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9150"></a><figcaption>9150</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9156.jpg" data-w="1067" data-h="1600" data-n="9156" data-chapter="The Gathering"><img src="images/thumbs/_T1A9156.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9156"></a><figcaption>9156</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9159.jpg" data-w="1067" data-h="1600" data-n="9159" data-chapter="The Gathering"><img src="images/thumbs/_T1A9159.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9159"></a><figcaption>9159</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9177.jpg" data-w="1067" data-h="1600" data-n="9177" data-chapter="The Gathering"><img src="images/thumbs/_T1A9177.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9177"></a><figcaption>9177</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9193.jpg" data-w="1067" data-h="1600" data-n="9193" data-chapter="The Gathering"><img src="images/thumbs/_T1A9193.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9193"></a><figcaption>9193</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9195.jpg" data-w="1067" data-h="1600" data-n="9195" data-chapter="The Gathering"><img src="images/thumbs/_T1A9195.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9195"></a><figcaption>9195</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9198.jpg" data-w="1067" data-h="1600" data-n="9198" data-chapter="The Gathering"><img src="images/thumbs/_T1A9198.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9198"></a><figcaption>9198</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9199.jpg" data-w="1067" data-h="1600" data-n="9199" data-chapter="The Gathering"><img src="images/thumbs/_T1A9199.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9199"></a><figcaption>9199</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9200.jpg" data-w="1067" data-h="1600" data-n="9200" data-chapter="The Gathering"><img src="images/thumbs/_T1A9200.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9200"></a><figcaption>9200</figcaption></figure>
+<h3 class="movement label">Power and the Stone</h3>
+<figure class="frame"><a href="images/_T1A9210.jpg" data-w="1067" data-h="1600" data-n="9210" data-chapter="The Gathering"><img src="images/thumbs/_T1A9210.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9210"></a><figcaption>9210</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9211.jpg" data-w="1067" data-h="1600" data-n="9211" data-chapter="The Gathering"><img src="images/thumbs/_T1A9211.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9211"></a><figcaption>9211</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9212.jpg" data-w="1067" data-h="1600" data-n="9212" data-chapter="The Gathering"><img src="images/thumbs/_T1A9212.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9212"></a><figcaption>9212</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9213.jpg" data-w="1067" data-h="1600" data-n="9213" data-chapter="The Gathering"><img src="images/thumbs/_T1A9213.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9213"></a><figcaption>9213</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9215.jpg" data-w="1067" data-h="1600" data-n="9215" data-chapter="The Gathering"><img src="images/thumbs/_T1A9215.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9215"></a><figcaption>9215</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9216.jpg" data-w="1067" data-h="1600" data-n="9216" data-chapter="The Gathering"><img src="images/thumbs/_T1A9216.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9216"></a><figcaption>9216</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9217.jpg" data-w="1067" data-h="1600" data-n="9217" data-chapter="The Gathering"><img src="images/thumbs/_T1A9217.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9217"></a><figcaption>9217</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9218.jpg" data-w="1067" data-h="1600" data-n="9218" data-chapter="The Gathering"><img src="images/thumbs/_T1A9218.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9218"></a><figcaption>9218</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9219.jpg" data-w="1067" data-h="1600" data-n="9219" data-chapter="The Gathering"><img src="images/thumbs/_T1A9219.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9219"></a><figcaption>9219</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9220.jpg" data-w="1067" data-h="1600" data-n="9220" data-chapter="The Gathering"><img src="images/thumbs/_T1A9220.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9220"></a><figcaption>9220</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9221.jpg" data-w="1067" data-h="1600" data-n="9221" data-chapter="The Gathering"><img src="images/thumbs/_T1A9221.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9221"></a><figcaption>9221</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9222.jpg" data-w="1067" data-h="1600" data-n="9222" data-chapter="The Gathering"><img src="images/thumbs/_T1A9222.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9222"></a><figcaption>9222</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9224.jpg" data-w="1600" data-h="1067" data-n="9224" data-chapter="The Gathering"><img src="images/thumbs/_T1A9224.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9224"></a><figcaption>9224</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9228.jpg" data-w="1600" data-h="1067" data-n="9228" data-chapter="The Gathering"><img src="images/thumbs/_T1A9228.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9228"></a><figcaption>9228</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9240.jpg" data-w="1600" data-h="1067" data-n="9240" data-chapter="The Gathering"><img src="images/thumbs/_T1A9240.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9240"></a><figcaption>9240</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9243.jpg" data-w="1600" data-h="1067" data-n="9243" data-chapter="The Gathering"><img src="images/thumbs/_T1A9243.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9243"></a><figcaption>9243</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9245.jpg" data-w="1600" data-h="1067" data-n="9245" data-chapter="The Gathering"><img src="images/thumbs/_T1A9245.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9245"></a><figcaption>9245</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9249.jpg" data-w="1600" data-h="1067" data-n="9249" data-chapter="The Gathering"><img src="images/thumbs/_T1A9249.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9249"></a><figcaption>9249</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9252.jpg" data-w="1600" data-h="1067" data-n="9252" data-chapter="The Gathering"><img src="images/thumbs/_T1A9252.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9252"></a><figcaption>9252</figcaption></figure>
+<h3 class="movement label">The Walk</h3>
+<figure class="frame"><a href="images/_T1A9257.jpg" data-w="1067" data-h="1600" data-n="9257" data-chapter="The Gathering"><img src="images/thumbs/_T1A9257.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9257"></a><figcaption>9257</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9259.jpg" data-w="1067" data-h="1600" data-n="9259" data-chapter="The Gathering"><img src="images/thumbs/_T1A9259.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9259"></a><figcaption>9259</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9268.jpg" data-w="1067" data-h="1600" data-n="9268" data-chapter="The Gathering"><img src="images/thumbs/_T1A9268.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9268"></a><figcaption>9268</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9294.jpg" data-w="1067" data-h="1600" data-n="9294" data-chapter="The Gathering"><img src="images/thumbs/_T1A9294.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9294"></a><figcaption>9294</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9307.jpg" data-w="1067" data-h="1600" data-n="9307" data-chapter="The Gathering"><img src="images/thumbs/_T1A9307.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9307"></a><figcaption>9307</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9311.jpg" data-w="1067" data-h="1600" data-n="9311" data-chapter="The Gathering"><img src="images/thumbs/_T1A9311.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9311"></a><figcaption>9311</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9312.jpg" data-w="1067" data-h="1600" data-n="9312" data-chapter="The Gathering"><img src="images/thumbs/_T1A9312.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9312"></a><figcaption>9312</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9313.jpg" data-w="1067" data-h="1600" data-n="9313" data-chapter="The Gathering"><img src="images/thumbs/_T1A9313.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9313"></a><figcaption>9313</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9318.jpg" data-w="1067" data-h="1600" data-n="9318" data-chapter="The Gathering"><img src="images/thumbs/_T1A9318.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9318"></a><figcaption>9318</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9319.jpg" data-w="1067" data-h="1600" data-n="9319" data-chapter="The Gathering"><img src="images/thumbs/_T1A9319.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9319"></a><figcaption>9319</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9321.jpg" data-w="1067" data-h="1600" data-n="9321" data-chapter="The Gathering"><img src="images/thumbs/_T1A9321.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9321"></a><figcaption>9321</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9325.jpg" data-w="1067" data-h="1600" data-n="9325" data-chapter="The Gathering"><img src="images/thumbs/_T1A9325.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9325"></a><figcaption>9325</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9326.jpg" data-w="1067" data-h="1600" data-n="9326" data-chapter="The Gathering"><img src="images/thumbs/_T1A9326.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9326"></a><figcaption>9326</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9327.jpg" data-w="1067" data-h="1600" data-n="9327" data-chapter="The Gathering"><img src="images/thumbs/_T1A9327.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9327"></a><figcaption>9327</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9329.jpg" data-w="1067" data-h="1600" data-n="9329" data-chapter="The Gathering"><img src="images/thumbs/_T1A9329.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9329"></a><figcaption>9329</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9330.jpg" data-w="1067" data-h="1600" data-n="9330" data-chapter="The Gathering"><img src="images/thumbs/_T1A9330.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9330"></a><figcaption>9330</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9331.jpg" data-w="1067" data-h="1600" data-n="9331" data-chapter="The Gathering"><img src="images/thumbs/_T1A9331.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9331"></a><figcaption>9331</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9334.jpg" data-w="1067" data-h="1600" data-n="9334" data-chapter="The Gathering"><img src="images/thumbs/_T1A9334.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9334"></a><figcaption>9334</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9338.jpg" data-w="1067" data-h="1600" data-n="9338" data-chapter="The Gathering"><img src="images/thumbs/_T1A9338.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9338"></a><figcaption>9338</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9339.jpg" data-w="1067" data-h="1600" data-n="9339" data-chapter="The Gathering"><img src="images/thumbs/_T1A9339.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9339"></a><figcaption>9339</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9342.jpg" data-w="1067" data-h="1600" data-n="9342" data-chapter="The Gathering"><img src="images/thumbs/_T1A9342.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9342"></a><figcaption>9342</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9347.jpg" data-w="1067" data-h="1600" data-n="9347" data-chapter="The Gathering"><img src="images/thumbs/_T1A9347.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9347"></a><figcaption>9347</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9349.jpg" data-w="1067" data-h="1600" data-n="9349" data-chapter="The Gathering"><img src="images/thumbs/_T1A9349.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9349"></a><figcaption>9349</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9353.jpg" data-w="1067" data-h="1600" data-n="9353" data-chapter="The Gathering"><img src="images/thumbs/_T1A9353.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9353"></a><figcaption>9353</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9354.jpg" data-w="1067" data-h="1600" data-n="9354" data-chapter="The Gathering"><img src="images/thumbs/_T1A9354.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9354"></a><figcaption>9354</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9361.jpg" data-w="1067" data-h="1600" data-n="9361" data-chapter="The Gathering"><img src="images/thumbs/_T1A9361.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9361"></a><figcaption>9361</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9362.jpg" data-w="1067" data-h="1600" data-n="9362" data-chapter="The Gathering"><img src="images/thumbs/_T1A9362.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9362"></a><figcaption>9362</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9371.jpg" data-w="1067" data-h="1600" data-n="9371" data-chapter="The Gathering"><img src="images/thumbs/_T1A9371.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9371"></a><figcaption>9371</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9375.jpg" data-w="1067" data-h="1600" data-n="9375" data-chapter="The Gathering"><img src="images/thumbs/_T1A9375.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9375"></a><figcaption>9375</figcaption></figure>
+<h3 class="movement label">Curiosity and Reaching</h3>
+<figure class="frame"><a href="images/_T1A9391.jpg" data-w="1067" data-h="1600" data-n="9391" data-chapter="The Gathering"><img src="images/thumbs/_T1A9391.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9391"></a><figcaption>9391</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9393.jpg" data-w="1067" data-h="1600" data-n="9393" data-chapter="The Gathering"><img src="images/thumbs/_T1A9393.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9393"></a><figcaption>9393</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9394.jpg" data-w="1067" data-h="1600" data-n="9394" data-chapter="The Gathering"><img src="images/thumbs/_T1A9394.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9394"></a><figcaption>9394</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9395.jpg" data-w="1067" data-h="1600" data-n="9395" data-chapter="The Gathering"><img src="images/thumbs/_T1A9395.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9395"></a><figcaption>9395</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9398.jpg" data-w="1067" data-h="1600" data-n="9398" data-chapter="The Gathering"><img src="images/thumbs/_T1A9398.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9398"></a><figcaption>9398</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9402.jpg" data-w="1067" data-h="1600" data-n="9402" data-chapter="The Gathering"><img src="images/thumbs/_T1A9402.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9402"></a><figcaption>9402</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9405.jpg" data-w="1067" data-h="1600" data-n="9405" data-chapter="The Gathering"><img src="images/thumbs/_T1A9405.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9405"></a><figcaption>9405</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9406.jpg" data-w="1067" data-h="1600" data-n="9406" data-chapter="The Gathering"><img src="images/thumbs/_T1A9406.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9406"></a><figcaption>9406</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9407.jpg" data-w="1067" data-h="1600" data-n="9407" data-chapter="The Gathering"><img src="images/thumbs/_T1A9407.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9407"></a><figcaption>9407</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9408.jpg" data-w="1067" data-h="1600" data-n="9408" data-chapter="The Gathering"><img src="images/thumbs/_T1A9408.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9408"></a><figcaption>9408</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9412.jpg" data-w="1067" data-h="1600" data-n="9412" data-chapter="The Gathering"><img src="images/thumbs/_T1A9412.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9412"></a><figcaption>9412</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9416.jpg" data-w="1067" data-h="1600" data-n="9416" data-chapter="The Gathering"><img src="images/thumbs/_T1A9416.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9416"></a><figcaption>9416</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9417.jpg" data-w="1067" data-h="1600" data-n="9417" data-chapter="The Gathering"><img src="images/thumbs/_T1A9417.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9417"></a><figcaption>9417</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9418.jpg" data-w="1067" data-h="1600" data-n="9418" data-chapter="The Gathering"><img src="images/thumbs/_T1A9418.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9418"></a><figcaption>9418</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9419.jpg" data-w="1067" data-h="1600" data-n="9419" data-chapter="The Gathering"><img src="images/thumbs/_T1A9419.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9419"></a><figcaption>9419</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9421.jpg" data-w="1067" data-h="1600" data-n="9421" data-chapter="The Gathering"><img src="images/thumbs/_T1A9421.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9421"></a><figcaption>9421</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9422.jpg" data-w="1067" data-h="1600" data-n="9422" data-chapter="The Gathering"><img src="images/thumbs/_T1A9422.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9422"></a><figcaption>9422</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9423.jpg" data-w="1067" data-h="1600" data-n="9423" data-chapter="The Gathering"><img src="images/thumbs/_T1A9423.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9423"></a><figcaption>9423</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9424.jpg" data-w="1067" data-h="1600" data-n="9424" data-chapter="The Gathering"><img src="images/thumbs/_T1A9424.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9424"></a><figcaption>9424</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9428.jpg" data-w="1067" data-h="1600" data-n="9428" data-chapter="The Gathering"><img src="images/thumbs/_T1A9428.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9428"></a><figcaption>9428</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9437.jpg" data-w="1067" data-h="1600" data-n="9437" data-chapter="The Gathering"><img src="images/thumbs/_T1A9437.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9437"></a><figcaption>9437</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9438.jpg" data-w="1067" data-h="1600" data-n="9438" data-chapter="The Gathering"><img src="images/thumbs/_T1A9438.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9438"></a><figcaption>9438</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9440.jpg" data-w="1067" data-h="1600" data-n="9440" data-chapter="The Gathering"><img src="images/thumbs/_T1A9440.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9440"></a><figcaption>9440</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9443.jpg" data-w="1067" data-h="1600" data-n="9443" data-chapter="The Gathering"><img src="images/thumbs/_T1A9443.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9443"></a><figcaption>9443</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9446.jpg" data-w="1067" data-h="1600" data-n="9446" data-chapter="The Gathering"><img src="images/thumbs/_T1A9446.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9446"></a><figcaption>9446</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9450.jpg" data-w="1067" data-h="1600" data-n="9450" data-chapter="The Gathering"><img src="images/thumbs/_T1A9450.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9450"></a><figcaption>9450</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9453.jpg" data-w="1067" data-h="1600" data-n="9453" data-chapter="The Gathering"><img src="images/thumbs/_T1A9453.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9453"></a><figcaption>9453</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9463.jpg" data-w="1067" data-h="1600" data-n="9463" data-chapter="The Gathering"><img src="images/thumbs/_T1A9463.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9463"></a><figcaption>9463</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9468.jpg" data-w="1067" data-h="1600" data-n="9468" data-chapter="The Gathering"><img src="images/thumbs/_T1A9468.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9468"></a><figcaption>9468</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9472.jpg" data-w="1067" data-h="1600" data-n="9472" data-chapter="The Gathering"><img src="images/thumbs/_T1A9472.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9472"></a><figcaption>9472</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9474.jpg" data-w="1067" data-h="1600" data-n="9474" data-chapter="The Gathering"><img src="images/thumbs/_T1A9474.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9474"></a><figcaption>9474</figcaption></figure>
+<h3 class="movement label">Among the Trees</h3>
+<figure class="frame"><a href="images/_T1A9489.jpg" data-w="1067" data-h="1600" data-n="9489" data-chapter="The Gathering"><img src="images/thumbs/_T1A9489.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9489"></a><figcaption>9489</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9491.jpg" data-w="1067" data-h="1600" data-n="9491" data-chapter="The Gathering"><img src="images/thumbs/_T1A9491.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9491"></a><figcaption>9491</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9495.jpg" data-w="1067" data-h="1600" data-n="9495" data-chapter="The Gathering"><img src="images/thumbs/_T1A9495.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9495"></a><figcaption>9495</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9503.jpg" data-w="1067" data-h="1600" data-n="9503" data-chapter="The Gathering"><img src="images/thumbs/_T1A9503.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9503"></a><figcaption>9503</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9504.jpg" data-w="1067" data-h="1600" data-n="9504" data-chapter="The Gathering"><img src="images/thumbs/_T1A9504.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9504"></a><figcaption>9504</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9508.jpg" data-w="1067" data-h="1600" data-n="9508" data-chapter="The Gathering"><img src="images/thumbs/_T1A9508.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9508"></a><figcaption>9508</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9509.jpg" data-w="1067" data-h="1600" data-n="9509" data-chapter="The Gathering"><img src="images/thumbs/_T1A9509.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9509"></a><figcaption>9509</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9513.jpg" data-w="1067" data-h="1600" data-n="9513" data-chapter="The Gathering"><img src="images/thumbs/_T1A9513.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9513"></a><figcaption>9513</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9514.jpg" data-w="1067" data-h="1600" data-n="9514" data-chapter="The Gathering"><img src="images/thumbs/_T1A9514.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9514"></a><figcaption>9514</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9515.jpg" data-w="1067" data-h="1600" data-n="9515" data-chapter="The Gathering"><img src="images/thumbs/_T1A9515.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9515"></a><figcaption>9515</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9516.jpg" data-w="1067" data-h="1600" data-n="9516" data-chapter="The Gathering"><img src="images/thumbs/_T1A9516.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9516"></a><figcaption>9516</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9517.jpg" data-w="1067" data-h="1600" data-n="9517" data-chapter="The Gathering"><img src="images/thumbs/_T1A9517.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9517"></a><figcaption>9517</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9519.jpg" data-w="1067" data-h="1600" data-n="9519" data-chapter="The Gathering"><img src="images/thumbs/_T1A9519.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9519"></a><figcaption>9519</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9520.jpg" data-w="1067" data-h="1600" data-n="9520" data-chapter="The Gathering"><img src="images/thumbs/_T1A9520.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9520"></a><figcaption>9520</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9524.jpg" data-w="1067" data-h="1600" data-n="9524" data-chapter="The Gathering"><img src="images/thumbs/_T1A9524.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9524"></a><figcaption>9524</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9525.jpg" data-w="1067" data-h="1600" data-n="9525" data-chapter="The Gathering"><img src="images/thumbs/_T1A9525.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9525"></a><figcaption>9525</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9526.jpg" data-w="1067" data-h="1600" data-n="9526" data-chapter="The Gathering"><img src="images/thumbs/_T1A9526.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9526"></a><figcaption>9526</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9527.jpg" data-w="1067" data-h="1600" data-n="9527" data-chapter="The Gathering"><img src="images/thumbs/_T1A9527.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9527"></a><figcaption>9527</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9529.jpg" data-w="1067" data-h="1600" data-n="9529" data-chapter="The Gathering"><img src="images/thumbs/_T1A9529.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9529"></a><figcaption>9529</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9530.jpg" data-w="1067" data-h="1600" data-n="9530" data-chapter="The Gathering"><img src="images/thumbs/_T1A9530.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9530"></a><figcaption>9530</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9531.jpg" data-w="1067" data-h="1600" data-n="9531" data-chapter="The Gathering"><img src="images/thumbs/_T1A9531.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9531"></a><figcaption>9531</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9533.jpg" data-w="1067" data-h="1600" data-n="9533" data-chapter="The Gathering"><img src="images/thumbs/_T1A9533.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9533"></a><figcaption>9533</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9534.jpg" data-w="1067" data-h="1600" data-n="9534" data-chapter="The Gathering"><img src="images/thumbs/_T1A9534.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9534"></a><figcaption>9534</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9535.jpg" data-w="1067" data-h="1600" data-n="9535" data-chapter="The Gathering"><img src="images/thumbs/_T1A9535.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9535"></a><figcaption>9535</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9552.jpg" data-w="1067" data-h="1600" data-n="9552" data-chapter="The Gathering"><img src="images/thumbs/_T1A9552.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9552"></a><figcaption>9552</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9555.jpg" data-w="1067" data-h="1600" data-n="9555" data-chapter="The Gathering"><img src="images/thumbs/_T1A9555.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9555"></a><figcaption>9555</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9556.jpg" data-w="1067" data-h="1600" data-n="9556" data-chapter="The Gathering"><img src="images/thumbs/_T1A9556.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9556"></a><figcaption>9556</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9561.jpg" data-w="1067" data-h="1600" data-n="9561" data-chapter="The Gathering"><img src="images/thumbs/_T1A9561.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9561"></a><figcaption>9561</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9563.jpg" data-w="1067" data-h="1600" data-n="9563" data-chapter="The Gathering"><img src="images/thumbs/_T1A9563.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9563"></a><figcaption>9563</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9567.jpg" data-w="1067" data-h="1600" data-n="9567" data-chapter="The Gathering"><img src="images/thumbs/_T1A9567.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9567"></a><figcaption>9567</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9568.jpg" data-w="1067" data-h="1600" data-n="9568" data-chapter="The Gathering"><img src="images/thumbs/_T1A9568.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9568"></a><figcaption>9568</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9569.jpg" data-w="1067" data-h="1600" data-n="9569" data-chapter="The Gathering"><img src="images/thumbs/_T1A9569.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9569"></a><figcaption>9569</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9571.jpg" data-w="1067" data-h="1600" data-n="9571" data-chapter="The Gathering"><img src="images/thumbs/_T1A9571.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9571"></a><figcaption>9571</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9572.jpg" data-w="1067" data-h="1600" data-n="9572" data-chapter="The Gathering"><img src="images/thumbs/_T1A9572.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9572"></a><figcaption>9572</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9573.jpg" data-w="1067" data-h="1600" data-n="9573" data-chapter="The Gathering"><img src="images/thumbs/_T1A9573.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9573"></a><figcaption>9573</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9574.jpg" data-w="1067" data-h="1600" data-n="9574" data-chapter="The Gathering"><img src="images/thumbs/_T1A9574.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9574"></a><figcaption>9574</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9575.jpg" data-w="1067" data-h="1600" data-n="9575" data-chapter="The Gathering"><img src="images/thumbs/_T1A9575.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9575"></a><figcaption>9575</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9576.jpg" data-w="1067" data-h="1600" data-n="9576" data-chapter="The Gathering"><img src="images/thumbs/_T1A9576.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9576"></a><figcaption>9576</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9577.jpg" data-w="1067" data-h="1600" data-n="9577" data-chapter="The Gathering"><img src="images/thumbs/_T1A9577.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9577"></a><figcaption>9577</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9578.jpg" data-w="1067" data-h="1600" data-n="9578" data-chapter="The Gathering"><img src="images/thumbs/_T1A9578.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9578"></a><figcaption>9578</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9579.jpg" data-w="1067" data-h="1600" data-n="9579" data-chapter="The Gathering"><img src="images/thumbs/_T1A9579.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9579"></a><figcaption>9579</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9580.jpg" data-w="1067" data-h="1600" data-n="9580" data-chapter="The Gathering"><img src="images/thumbs/_T1A9580.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9580"></a><figcaption>9580</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9581.jpg" data-w="1067" data-h="1600" data-n="9581" data-chapter="The Gathering"><img src="images/thumbs/_T1A9581.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9581"></a><figcaption>9581</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9582.jpg" data-w="1067" data-h="1600" data-n="9582" data-chapter="The Gathering"><img src="images/thumbs/_T1A9582.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9582"></a><figcaption>9582</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9585.jpg" data-w="1067" data-h="1600" data-n="9585" data-chapter="The Gathering"><img src="images/thumbs/_T1A9585.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9585"></a><figcaption>9585</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9586.jpg" data-w="1067" data-h="1600" data-n="9586" data-chapter="The Gathering"><img src="images/thumbs/_T1A9586.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9586"></a><figcaption>9586</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9587.jpg" data-w="1067" data-h="1600" data-n="9587" data-chapter="The Gathering"><img src="images/thumbs/_T1A9587.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9587"></a><figcaption>9587</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9588.jpg" data-w="1067" data-h="1600" data-n="9588" data-chapter="The Gathering"><img src="images/thumbs/_T1A9588.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9588"></a><figcaption>9588</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9597.jpg" data-w="1067" data-h="1600" data-n="9597" data-chapter="The Gathering"><img src="images/thumbs/_T1A9597.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9597"></a><figcaption>9597</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9600.jpg" data-w="1067" data-h="1600" data-n="9600" data-chapter="The Gathering"><img src="images/thumbs/_T1A9600.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9600"></a><figcaption>9600</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9607.jpg" data-w="1600" data-h="1067" data-n="9607" data-chapter="The Gathering"><img src="images/thumbs/_T1A9607.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9607"></a><figcaption>9607</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9611.jpg" data-w="1600" data-h="1067" data-n="9611" data-chapter="The Gathering"><img src="images/thumbs/_T1A9611.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9611"></a><figcaption>9611</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9615.jpg" data-w="1600" data-h="1067" data-n="9615" data-chapter="The Gathering"><img src="images/thumbs/_T1A9615.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9615"></a><figcaption>9615</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9616.jpg" data-w="1600" data-h="1067" data-n="9616" data-chapter="The Gathering"><img src="images/thumbs/_T1A9616.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9616"></a><figcaption>9616</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9618.jpg" data-w="1600" data-h="1067" data-n="9618" data-chapter="The Gathering"><img src="images/thumbs/_T1A9618.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9618"></a><figcaption>9618</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9637.jpg" data-w="1600" data-h="1067" data-n="9637" data-chapter="The Gathering"><img src="images/thumbs/_T1A9637.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9637"></a><figcaption>9637</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9642.jpg" data-w="1600" data-h="1067" data-n="9642" data-chapter="The Gathering"><img src="images/thumbs/_T1A9642.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9642"></a><figcaption>9642</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9647.jpg" data-w="1600" data-h="1067" data-n="9647" data-chapter="The Gathering"><img src="images/thumbs/_T1A9647.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9647"></a><figcaption>9647</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9648.jpg" data-w="1600" data-h="1067" data-n="9648" data-chapter="The Gathering"><img src="images/thumbs/_T1A9648.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9648"></a><figcaption>9648</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9649.jpg" data-w="1600" data-h="1067" data-n="9649" data-chapter="The Gathering"><img src="images/thumbs/_T1A9649.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9649"></a><figcaption>9649</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9650.jpg" data-w="1600" data-h="1067" data-n="9650" data-chapter="The Gathering"><img src="images/thumbs/_T1A9650.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9650"></a><figcaption>9650</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9651.jpg" data-w="1600" data-h="1067" data-n="9651" data-chapter="The Gathering"><img src="images/thumbs/_T1A9651.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9651"></a><figcaption>9651</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9652.jpg" data-w="1600" data-h="1067" data-n="9652" data-chapter="The Gathering"><img src="images/thumbs/_T1A9652.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9652"></a><figcaption>9652</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9653.jpg" data-w="1600" data-h="1067" data-n="9653" data-chapter="The Gathering"><img src="images/thumbs/_T1A9653.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9653"></a><figcaption>9653</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9654.jpg" data-w="1600" data-h="1067" data-n="9654" data-chapter="The Gathering"><img src="images/thumbs/_T1A9654.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9654"></a><figcaption>9654</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9655.jpg" data-w="1600" data-h="1067" data-n="9655" data-chapter="The Gathering"><img src="images/thumbs/_T1A9655.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9655"></a><figcaption>9655</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9656.jpg" data-w="1600" data-h="1067" data-n="9656" data-chapter="The Gathering"><img src="images/thumbs/_T1A9656.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9656"></a><figcaption>9656</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9657.jpg" data-w="1600" data-h="1067" data-n="9657" data-chapter="The Gathering"><img src="images/thumbs/_T1A9657.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9657"></a><figcaption>9657</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9659.jpg" data-w="1600" data-h="1067" data-n="9659" data-chapter="The Gathering"><img src="images/thumbs/_T1A9659.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9659"></a><figcaption>9659</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9660.jpg" data-w="1600" data-h="1067" data-n="9660" data-chapter="The Gathering"><img src="images/thumbs/_T1A9660.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9660"></a><figcaption>9660</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9663.jpg" data-w="1600" data-h="1067" data-n="9663" data-chapter="The Gathering"><img src="images/thumbs/_T1A9663.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9663"></a><figcaption>9663</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9664.jpg" data-w="1067" data-h="1600" data-n="9664" data-chapter="The Gathering"><img src="images/thumbs/_T1A9664.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9664"></a><figcaption>9664</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9665.jpg" data-w="1067" data-h="1600" data-n="9665" data-chapter="The Gathering"><img src="images/thumbs/_T1A9665.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9665"></a><figcaption>9665</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9666.jpg" data-w="1067" data-h="1600" data-n="9666" data-chapter="The Gathering"><img src="images/thumbs/_T1A9666.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9666"></a><figcaption>9666</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9667.jpg" data-w="1067" data-h="1600" data-n="9667" data-chapter="The Gathering"><img src="images/thumbs/_T1A9667.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9667"></a><figcaption>9667</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9668.jpg" data-w="1067" data-h="1600" data-n="9668" data-chapter="The Gathering"><img src="images/thumbs/_T1A9668.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9668"></a><figcaption>9668</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9669.jpg" data-w="1067" data-h="1600" data-n="9669" data-chapter="The Gathering"><img src="images/thumbs/_T1A9669.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9669"></a><figcaption>9669</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9670.jpg" data-w="1067" data-h="1600" data-n="9670" data-chapter="The Gathering"><img src="images/thumbs/_T1A9670.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9670"></a><figcaption>9670</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9673.jpg" data-w="1067" data-h="1600" data-n="9673" data-chapter="The Gathering"><img src="images/thumbs/_T1A9673.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9673"></a><figcaption>9673</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9674.jpg" data-w="1067" data-h="1600" data-n="9674" data-chapter="The Gathering"><img src="images/thumbs/_T1A9674.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9674"></a><figcaption>9674</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9675.jpg" data-w="1067" data-h="1600" data-n="9675" data-chapter="The Gathering"><img src="images/thumbs/_T1A9675.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9675"></a><figcaption>9675</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9676.jpg" data-w="1067" data-h="1600" data-n="9676" data-chapter="The Gathering"><img src="images/thumbs/_T1A9676.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9676"></a><figcaption>9676</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9677.jpg" data-w="1067" data-h="1600" data-n="9677" data-chapter="The Gathering"><img src="images/thumbs/_T1A9677.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9677"></a><figcaption>9677</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9678.jpg" data-w="1067" data-h="1600" data-n="9678" data-chapter="The Gathering"><img src="images/thumbs/_T1A9678.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9678"></a><figcaption>9678</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9681.jpg" data-w="1067" data-h="1600" data-n="9681" data-chapter="The Gathering"><img src="images/thumbs/_T1A9681.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9681"></a><figcaption>9681</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9683.jpg" data-w="1067" data-h="1600" data-n="9683" data-chapter="The Gathering"><img src="images/thumbs/_T1A9683.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9683"></a><figcaption>9683</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9685.jpg" data-w="1067" data-h="1600" data-n="9685" data-chapter="The Gathering"><img src="images/thumbs/_T1A9685.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9685"></a><figcaption>9685</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9688.jpg" data-w="1067" data-h="1600" data-n="9688" data-chapter="The Gathering"><img src="images/thumbs/_T1A9688.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9688"></a><figcaption>9688</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9690.jpg" data-w="1067" data-h="1600" data-n="9690" data-chapter="The Gathering"><img src="images/thumbs/_T1A9690.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9690"></a><figcaption>9690</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9691.jpg" data-w="1067" data-h="1600" data-n="9691" data-chapter="The Gathering"><img src="images/thumbs/_T1A9691.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9691"></a><figcaption>9691</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9693.jpg" data-w="1067" data-h="1600" data-n="9693" data-chapter="The Gathering"><img src="images/thumbs/_T1A9693.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9693"></a><figcaption>9693</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9704.jpg" data-w="1067" data-h="1600" data-n="9704" data-chapter="The Gathering"><img src="images/thumbs/_T1A9704.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9704"></a><figcaption>9704</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9711.jpg" data-w="1067" data-h="1600" data-n="9711" data-chapter="The Gathering"><img src="images/thumbs/_T1A9711.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9711"></a><figcaption>9711</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9712.jpg" data-w="1067" data-h="1600" data-n="9712" data-chapter="The Gathering"><img src="images/thumbs/_T1A9712.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9712"></a><figcaption>9712</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9713.jpg" data-w="1067" data-h="1600" data-n="9713" data-chapter="The Gathering"><img src="images/thumbs/_T1A9713.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9713"></a><figcaption>9713</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9719.jpg" data-w="1067" data-h="1600" data-n="9719" data-chapter="The Gathering"><img src="images/thumbs/_T1A9719.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9719"></a><figcaption>9719</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9726.jpg" data-w="1067" data-h="1600" data-n="9726" data-chapter="The Gathering"><img src="images/thumbs/_T1A9726.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9726"></a><figcaption>9726</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9730.jpg" data-w="1067" data-h="1600" data-n="9730" data-chapter="The Gathering"><img src="images/thumbs/_T1A9730.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9730"></a><figcaption>9730</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9731.jpg" data-w="1067" data-h="1600" data-n="9731" data-chapter="The Gathering"><img src="images/thumbs/_T1A9731.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9731"></a><figcaption>9731</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9734.jpg" data-w="1067" data-h="1600" data-n="9734" data-chapter="The Gathering"><img src="images/thumbs/_T1A9734.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9734"></a><figcaption>9734</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9737.jpg" data-w="1067" data-h="1600" data-n="9737" data-chapter="The Gathering"><img src="images/thumbs/_T1A9737.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9737"></a><figcaption>9737</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9739.jpg" data-w="1067" data-h="1600" data-n="9739" data-chapter="The Gathering"><img src="images/thumbs/_T1A9739.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9739"></a><figcaption>9739</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9751.jpg" data-w="1477" data-h="1600" data-n="9751" data-chapter="The Gathering"><img src="images/thumbs/_T1A9751.jpg" width="517" height="560" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9751"></a><figcaption>9751</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9752.jpg" data-w="1600" data-h="1549" data-n="9752" data-chapter="The Gathering"><img src="images/thumbs/_T1A9752.jpg" width="560" height="542" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9752"></a><figcaption>9752</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9756.jpg" data-w="1600" data-h="1106" data-n="9756" data-chapter="The Gathering"><img src="images/thumbs/_T1A9756.jpg" width="560" height="387" loading="lazy" decoding="async" alt="Em in the white dress with a basket, The Gathering, frame 9756"></a><figcaption>9756</figcaption></figure>
+</div></section>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+<section class="chapter" id="first-smoke">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="32" cy="27" rx="17" ry="4"/>
+  <path d="M15 27c0 10 6 19 17 19s17-9 17-19"/>
+  <path d="M15 27l-4-3M49 27l4-3"/>
+  <path d="M24 45l-3 7M40 45l3 7M32 46v6"/>
+  <path d="M25 19c-2-3 2-5 0-8M32 17c-2-3 2-5 0-8M39 19c-2-3 2-5 0-8"/>
+  <path d="M47 11l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M16 13v4M14 15h4"/>
+</svg>
+<p class="label">Chapter II</p>
+<h2>First Smoke</h2>
+<p class="deck">The black dress, no hat yet. The cauldron is lit and stirred.</p>
+<p class="count">15 frames</p>
+</header>
+<div class="grid">
+<figure class="frame" class="wide"><a href="images/_T1A9764.jpg" data-w="1600" data-h="1067" data-n="9764" data-chapter="First Smoke"><img src="images/thumbs/_T1A9764.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9764"></a><figcaption>9764</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9768.jpg" data-w="1600" data-h="1067" data-n="9768" data-chapter="First Smoke"><img src="images/thumbs/_T1A9768.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9768"></a><figcaption>9768</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9773.jpg" data-w="1600" data-h="1067" data-n="9773" data-chapter="First Smoke"><img src="images/thumbs/_T1A9773.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9773"></a><figcaption>9773</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9775.jpg" data-w="1600" data-h="1067" data-n="9775" data-chapter="First Smoke"><img src="images/thumbs/_T1A9775.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9775"></a><figcaption>9775</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9776.jpg" data-w="1600" data-h="1067" data-n="9776" data-chapter="First Smoke"><img src="images/thumbs/_T1A9776.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9776"></a><figcaption>9776</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9782.jpg" data-w="1600" data-h="1067" data-n="9782" data-chapter="First Smoke"><img src="images/thumbs/_T1A9782.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9782"></a><figcaption>9782</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9783.jpg" data-w="1600" data-h="1067" data-n="9783" data-chapter="First Smoke"><img src="images/thumbs/_T1A9783.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9783"></a><figcaption>9783</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9786.jpg" data-w="1600" data-h="1067" data-n="9786" data-chapter="First Smoke"><img src="images/thumbs/_T1A9786.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9786"></a><figcaption>9786</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9787.jpg" data-w="1600" data-h="1067" data-n="9787" data-chapter="First Smoke"><img src="images/thumbs/_T1A9787.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9787"></a><figcaption>9787</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9788.jpg" data-w="1600" data-h="1067" data-n="9788" data-chapter="First Smoke"><img src="images/thumbs/_T1A9788.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9788"></a><figcaption>9788</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9789.jpg" data-w="1600" data-h="1067" data-n="9789" data-chapter="First Smoke"><img src="images/thumbs/_T1A9789.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9789"></a><figcaption>9789</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9790.jpg" data-w="1600" data-h="1067" data-n="9790" data-chapter="First Smoke"><img src="images/thumbs/_T1A9790.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9790"></a><figcaption>9790</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9791.jpg" data-w="1600" data-h="1067" data-n="9791" data-chapter="First Smoke"><img src="images/thumbs/_T1A9791.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9791"></a><figcaption>9791</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9794.jpg" data-w="1600" data-h="1067" data-n="9794" data-chapter="First Smoke"><img src="images/thumbs/_T1A9794.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9794"></a><figcaption>9794</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9795.jpg" data-w="1600" data-h="1067" data-n="9795" data-chapter="First Smoke"><img src="images/thumbs/_T1A9795.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, First Smoke, frame 9795"></a><figcaption>9795</figcaption></figure>
+</div></section>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+<section class="chapter" id="the-cauldron">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="32" cy="45" rx="21" ry="5.5"/>
+  <path d="M20 42c3-10 8-22 21-32c-2 8-1 15 3 21c2 3 4 7 5 11"/>
+  <path d="M21 39c6 2.5 20 2.5 27 0"/>
+  <path d="M27 36c3 1 7 1 10 0"/>
+  <path d="M50 10l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M12 20v4M10 22h4"/>
+</svg>
+<p class="label">Chapter III</p>
+<h2>The Cauldron</h2>
+<p class="deck">The hat goes on. Cauldron among the roots and the lichen-covered rock, hard afternoon light.</p>
+<p class="count">91 frames</p>
+</header>
+<div class="grid">
+<figure class="frame" class="wide"><a href="images/_T1A9814.jpg" data-w="1600" data-h="1067" data-n="9814" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9814.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9814"></a><figcaption>9814</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9815.jpg" data-w="1600" data-h="1067" data-n="9815" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9815.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9815"></a><figcaption>9815</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9816.jpg" data-w="1600" data-h="1172" data-n="9816" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9816.jpg" width="560" height="410" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9816"></a><figcaption>9816</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9819.jpg" data-w="1600" data-h="1067" data-n="9819" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9819.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9819"></a><figcaption>9819</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9820.jpg" data-w="1600" data-h="900" data-n="9820" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9820.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9820"></a><figcaption>9820</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9822.jpg" data-w="1600" data-h="900" data-n="9822" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9822.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9822"></a><figcaption>9822</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9823.jpg" data-w="1600" data-h="1067" data-n="9823" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9823.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9823"></a><figcaption>9823</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9829.jpg" data-w="1600" data-h="1067" data-n="9829" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9829.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9829"></a><figcaption>9829</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9830.jpg" data-w="1600" data-h="1067" data-n="9830" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9830.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9830"></a><figcaption>9830</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9831.jpg" data-w="1600" data-h="1067" data-n="9831" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9831.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9831"></a><figcaption>9831</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9832.jpg" data-w="1600" data-h="900" data-n="9832" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9832.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9832"></a><figcaption>9832</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9833.jpg" data-w="1600" data-h="1067" data-n="9833" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9833.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9833"></a><figcaption>9833</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9834.jpg" data-w="1600" data-h="1067" data-n="9834" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9834.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9834"></a><figcaption>9834</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9835.jpg" data-w="1600" data-h="1067" data-n="9835" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9835.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9835"></a><figcaption>9835</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9841.jpg" data-w="1600" data-h="900" data-n="9841" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9841.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9841"></a><figcaption>9841</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9849.jpg" data-w="1600" data-h="1067" data-n="9849" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9849.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9849"></a><figcaption>9849</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9859.jpg" data-w="1600" data-h="1067" data-n="9859" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9859.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9859"></a><figcaption>9859</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9860.jpg" data-w="1600" data-h="1067" data-n="9860" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9860.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9860"></a><figcaption>9860</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9861.jpg" data-w="1600" data-h="1067" data-n="9861" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9861.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9861"></a><figcaption>9861</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9862.jpg" data-w="1600" data-h="1067" data-n="9862" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9862.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9862"></a><figcaption>9862</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9889.jpg" data-w="1600" data-h="900" data-n="9889" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9889.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9889"></a><figcaption>9889</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9890.jpg" data-w="1600" data-h="900" data-n="9890" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9890.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9890"></a><figcaption>9890</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9891.jpg" data-w="1600" data-h="900" data-n="9891" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9891.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9891"></a><figcaption>9891</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9892.jpg" data-w="1600" data-h="900" data-n="9892" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9892.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9892"></a><figcaption>9892</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9894.jpg" data-w="1600" data-h="900" data-n="9894" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9894.jpg" width="560" height="315" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9894"></a><figcaption>9894</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9895.jpg" data-w="1600" data-h="1067" data-n="9895" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9895.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9895"></a><figcaption>9895</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9897.jpg" data-w="1600" data-h="1067" data-n="9897" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9897.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9897"></a><figcaption>9897</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9898.jpg" data-w="1600" data-h="1067" data-n="9898" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9898.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9898"></a><figcaption>9898</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9899.jpg" data-w="1600" data-h="1067" data-n="9899" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9899.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9899"></a><figcaption>9899</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9900.jpg" data-w="1600" data-h="1067" data-n="9900" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9900.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9900"></a><figcaption>9900</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9901.jpg" data-w="1600" data-h="1067" data-n="9901" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9901.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9901"></a><figcaption>9901</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9902.jpg" data-w="1600" data-h="1067" data-n="9902" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9902.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9902"></a><figcaption>9902</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9904.jpg" data-w="1600" data-h="1067" data-n="9904" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9904.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9904"></a><figcaption>9904</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9905.jpg" data-w="1600" data-h="1067" data-n="9905" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9905.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9905"></a><figcaption>9905</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9906.jpg" data-w="1600" data-h="1066" data-n="9906" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9906.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9906"></a><figcaption>9906</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9908.jpg" data-w="1280" data-h="1600" data-n="9908" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9908.jpg" width="448" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9908"></a><figcaption>9908</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9914.jpg" data-w="1280" data-h="1600" data-n="9914" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9914.jpg" width="448" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9914"></a><figcaption>9914</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9921.jpg" data-w="1600" data-h="1067" data-n="9921" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9921.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9921"></a><figcaption>9921</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9924.jpg" data-w="1600" data-h="1067" data-n="9924" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9924.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9924"></a><figcaption>9924</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9925.jpg" data-w="1600" data-h="1067" data-n="9925" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9925.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9925"></a><figcaption>9925</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9933.jpg" data-w="1600" data-h="1067" data-n="9933" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9933.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9933"></a><figcaption>9933</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9938.jpg" data-w="1600" data-h="1067" data-n="9938" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9938.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9938"></a><figcaption>9938</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9947.jpg" data-w="1600" data-h="1067" data-n="9947" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9947.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9947"></a><figcaption>9947</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9949.jpg" data-w="1600" data-h="1067" data-n="9949" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9949.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9949"></a><figcaption>9949</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9953.jpg" data-w="1600" data-h="1067" data-n="9953" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9953.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9953"></a><figcaption>9953</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9954.jpg" data-w="1600" data-h="1067" data-n="9954" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9954.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9954"></a><figcaption>9954</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9956.jpg" data-w="1600" data-h="1067" data-n="9956" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9956.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9956"></a><figcaption>9956</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9958.jpg" data-w="1600" data-h="1067" data-n="9958" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9958.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9958"></a><figcaption>9958</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9962.jpg" data-w="1600" data-h="1067" data-n="9962" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9962.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9962"></a><figcaption>9962</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9963.jpg" data-w="1600" data-h="1067" data-n="9963" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9963.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9963"></a><figcaption>9963</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9964.jpg" data-w="1600" data-h="1067" data-n="9964" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9964.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9964"></a><figcaption>9964</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9965.jpg" data-w="1600" data-h="1067" data-n="9965" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9965.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9965"></a><figcaption>9965</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A9974.jpg" data-w="1600" data-h="1067" data-n="9974" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9974.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9974"></a><figcaption>9974</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9981.jpg" data-w="1280" data-h="1600" data-n="9981" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9981.jpg" width="448" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9981"></a><figcaption>9981</figcaption></figure>
+<figure class="frame"><a href="images/_T1A9992.jpg" data-w="1067" data-h="1600" data-n="9992" data-chapter="The Cauldron"><img src="images/thumbs/_T1A9992.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 9992"></a><figcaption>9992</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0017.jpg" data-w="1067" data-h="1600" data-n="0017" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0017.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0017"></a><figcaption>0017</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0020.jpg" data-w="1067" data-h="1600" data-n="0020" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0020.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0020"></a><figcaption>0020</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0022.jpg" data-w="1067" data-h="1600" data-n="0022" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0022.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0022"></a><figcaption>0022</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0033.jpg" data-w="1067" data-h="1600" data-n="0033" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0033.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0033"></a><figcaption>0033</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0035.jpg" data-w="1067" data-h="1600" data-n="0035" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0035.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0035"></a><figcaption>0035</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0040.jpg" data-w="1280" data-h="1600" data-n="0040" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0040.jpg" width="448" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0040"></a><figcaption>0040</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0043.jpg" data-w="1067" data-h="1600" data-n="0043" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0043.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0043"></a><figcaption>0043</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0051.jpg" data-w="1067" data-h="1600" data-n="0051" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0051.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0051"></a><figcaption>0051</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0055.jpg" data-w="1067" data-h="1600" data-n="0055" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0055.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0055"></a><figcaption>0055</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0061.jpg" data-w="1067" data-h="1600" data-n="0061" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0061.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0061"></a><figcaption>0061</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0064.jpg" data-w="1067" data-h="1600" data-n="0064" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0064.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0064"></a><figcaption>0064</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0065.jpg" data-w="1067" data-h="1600" data-n="0065" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0065.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0065"></a><figcaption>0065</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0070.jpg" data-w="1600" data-h="1067" data-n="0070" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0070.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0070"></a><figcaption>0070</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0082.jpg" data-w="1600" data-h="1067" data-n="0082" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0082.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0082"></a><figcaption>0082</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0090.jpg" data-w="1600" data-h="1067" data-n="0090" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0090.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0090"></a><figcaption>0090</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0092.jpg" data-w="1600" data-h="1067" data-n="0092" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0092.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0092"></a><figcaption>0092</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0093.jpg" data-w="1600" data-h="1067" data-n="0093" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0093.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0093"></a><figcaption>0093</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0094.jpg" data-w="1600" data-h="1067" data-n="0094" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0094.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0094"></a><figcaption>0094</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0097.jpg" data-w="1600" data-h="1067" data-n="0097" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0097.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0097"></a><figcaption>0097</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0106.jpg" data-w="1600" data-h="1067" data-n="0106" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0106.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0106"></a><figcaption>0106</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0110.jpg" data-w="1600" data-h="1067" data-n="0110" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0110.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0110"></a><figcaption>0110</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0113.jpg" data-w="1600" data-h="1067" data-n="0113" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0113.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0113"></a><figcaption>0113</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0124.jpg" data-w="1067" data-h="1600" data-n="0124" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0124.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0124"></a><figcaption>0124</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0130.jpg" data-w="1600" data-h="1067" data-n="0130" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0130.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0130"></a><figcaption>0130</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0131.jpg" data-w="1600" data-h="1067" data-n="0131" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0131.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0131"></a><figcaption>0131</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0134.jpg" data-w="1600" data-h="1067" data-n="0134" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0134.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0134"></a><figcaption>0134</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0136.jpg" data-w="1600" data-h="1067" data-n="0136" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0136.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0136"></a><figcaption>0136</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0140.jpg" data-w="1600" data-h="1067" data-n="0140" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0140.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0140"></a><figcaption>0140</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0141.jpg" data-w="1600" data-h="1067" data-n="0141" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0141.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0141"></a><figcaption>0141</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0144.jpg" data-w="1600" data-h="1067" data-n="0144" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0144.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0144"></a><figcaption>0144</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0147.jpg" data-w="1600" data-h="1067" data-n="0147" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0147.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0147"></a><figcaption>0147</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0152.jpg" data-w="1600" data-h="1067" data-n="0152" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0152.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0152"></a><figcaption>0152</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0153.jpg" data-w="1600" data-h="1067" data-n="0153" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0153.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0153"></a><figcaption>0153</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0162.jpg" data-w="1600" data-h="1067" data-n="0162" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0162.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0162"></a><figcaption>0162</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0166.jpg" data-w="1600" data-h="1067" data-n="0166" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0166.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0166"></a><figcaption>0166</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0167.jpg" data-w="1600" data-h="1067" data-n="0167" data-chapter="The Cauldron"><img src="images/thumbs/_T1A0167.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, The Cauldron, frame 0167"></a><figcaption>0167</figcaption></figure>
+</div></section>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+<section class="chapter" id="low-fire">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M26 26h12v24H26z"/>
+  <path d="M26 30c2 3 4 4 4 8M38 33c-2 2-3 4-2 7"/>
+  <path d="M32 26v-4"/>
+  <path d="M32 22c-4-4-3-10 0-13c3 3 4 9 0 13z"/>
+  <path d="M32 19c-1.5-1.5-1-4 0-5c1 1 1.5 3.5 0 5z"/>
+  <path d="M22 50h20M24 50v4h16v-4"/>
+  <path d="M46 14l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M16 18v4M14 20h4"/>
+</svg>
+<p class="label">Chapter IV</p>
+<h2>Low Fire</h2>
+<p class="deck">Hat off, seated in the ferns beside the smoking cauldron. The quiet, shadowed set.</p>
+<p class="count">23 frames</p>
+</header>
+<div class="grid">
+<figure class="frame" class="wide"><a href="images/_T1A0226.jpg" data-w="1600" data-h="1067" data-n="0226" data-chapter="Low Fire"><img src="images/thumbs/_T1A0226.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0226"></a><figcaption>0226</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0245.jpg" data-w="1600" data-h="1067" data-n="0245" data-chapter="Low Fire"><img src="images/thumbs/_T1A0245.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0245"></a><figcaption>0245</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0247.jpg" data-w="1600" data-h="1067" data-n="0247" data-chapter="Low Fire"><img src="images/thumbs/_T1A0247.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0247"></a><figcaption>0247</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0248.jpg" data-w="1600" data-h="1067" data-n="0248" data-chapter="Low Fire"><img src="images/thumbs/_T1A0248.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0248"></a><figcaption>0248</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0249.jpg" data-w="1600" data-h="1067" data-n="0249" data-chapter="Low Fire"><img src="images/thumbs/_T1A0249.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0249"></a><figcaption>0249</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0252.jpg" data-w="1600" data-h="1067" data-n="0252" data-chapter="Low Fire"><img src="images/thumbs/_T1A0252.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0252"></a><figcaption>0252</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0264.jpg" data-w="1600" data-h="1067" data-n="0264" data-chapter="Low Fire"><img src="images/thumbs/_T1A0264.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0264"></a><figcaption>0264</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0266.jpg" data-w="1600" data-h="1067" data-n="0266" data-chapter="Low Fire"><img src="images/thumbs/_T1A0266.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0266"></a><figcaption>0266</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0269.jpg" data-w="1600" data-h="1067" data-n="0269" data-chapter="Low Fire"><img src="images/thumbs/_T1A0269.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0269"></a><figcaption>0269</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0270.jpg" data-w="1600" data-h="1067" data-n="0270" data-chapter="Low Fire"><img src="images/thumbs/_T1A0270.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0270"></a><figcaption>0270</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0277.jpg" data-w="1600" data-h="1067" data-n="0277" data-chapter="Low Fire"><img src="images/thumbs/_T1A0277.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0277"></a><figcaption>0277</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0279.jpg" data-w="1600" data-h="1067" data-n="0279" data-chapter="Low Fire"><img src="images/thumbs/_T1A0279.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0279"></a><figcaption>0279</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0280.jpg" data-w="1600" data-h="1067" data-n="0280" data-chapter="Low Fire"><img src="images/thumbs/_T1A0280.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0280"></a><figcaption>0280</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0292.jpg" data-w="1600" data-h="1067" data-n="0292" data-chapter="Low Fire"><img src="images/thumbs/_T1A0292.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0292"></a><figcaption>0292</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0294.jpg" data-w="1600" data-h="1067" data-n="0294" data-chapter="Low Fire"><img src="images/thumbs/_T1A0294.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0294"></a><figcaption>0294</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0297.jpg" data-w="1600" data-h="1067" data-n="0297" data-chapter="Low Fire"><img src="images/thumbs/_T1A0297.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0297"></a><figcaption>0297</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0304.jpg" data-w="1600" data-h="1067" data-n="0304" data-chapter="Low Fire"><img src="images/thumbs/_T1A0304.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0304"></a><figcaption>0304</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0312.jpg" data-w="1600" data-h="1067" data-n="0312" data-chapter="Low Fire"><img src="images/thumbs/_T1A0312.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0312"></a><figcaption>0312</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0313.jpg" data-w="1600" data-h="1067" data-n="0313" data-chapter="Low Fire"><img src="images/thumbs/_T1A0313.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0313"></a><figcaption>0313</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0315.jpg" data-w="1600" data-h="1067" data-n="0315" data-chapter="Low Fire"><img src="images/thumbs/_T1A0315.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0315"></a><figcaption>0315</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0371.jpg" data-w="1067" data-h="1600" data-n="0371" data-chapter="Low Fire"><img src="images/thumbs/_T1A0371.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0371"></a><figcaption>0371</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0391.jpg" data-w="1067" data-h="1600" data-n="0391" data-chapter="Low Fire"><img src="images/thumbs/_T1A0391.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0391"></a><figcaption>0391</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0397.jpg" data-w="1067" data-h="1600" data-n="0397" data-chapter="Low Fire"><img src="images/thumbs/_T1A0397.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress at the cauldron, Low Fire, frame 0397"></a><figcaption>0397</figcaption></figure>
+</div></section>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+<section class="chapter" id="iron-and-smoke">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="32" cy="28" r="14"/>
+  <path d="M23 25c1-4 4-7 8-8"/>
+  <path d="M37 21l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M28 32v2M35 34v2"/>
+  <path d="M22 44h20l-2 6H24z"/>
+  <path d="M18 54h28"/>
+  <path d="M10 28h4M50 28h4M16 14l3 3M48 14l-3 3M32 6v4"/>
+</svg>
+<p class="label">Chapter V</p>
+<h2>Iron &amp; Smoke</h2>
+<p class="deck">The iron tripod. Hat, staff and cauldron, backlit through the yellow leaves.</p>
+<p class="count">47 frames</p>
+</header>
+<div class="grid">
+<figure class="frame"><a href="images/_T1A0478.jpg" data-w="1067" data-h="1600" data-n="0478" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0478.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0478"></a><figcaption>0478</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0484.jpg" data-w="1067" data-h="1600" data-n="0484" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0484.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0484"></a><figcaption>0484</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0485.jpg" data-w="1067" data-h="1600" data-n="0485" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0485.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0485"></a><figcaption>0485</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0488.jpg" data-w="1067" data-h="1600" data-n="0488" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0488.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0488"></a><figcaption>0488</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0508.jpg" data-w="1067" data-h="1600" data-n="0508" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0508.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0508"></a><figcaption>0508</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0511.jpg" data-w="1067" data-h="1600" data-n="0511" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0511.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0511"></a><figcaption>0511</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0516.jpg" data-w="1067" data-h="1600" data-n="0516" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0516.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0516"></a><figcaption>0516</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0520.jpg" data-w="1067" data-h="1600" data-n="0520" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0520.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0520"></a><figcaption>0520</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0529.jpg" data-w="1067" data-h="1600" data-n="0529" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0529.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0529"></a><figcaption>0529</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0531.jpg" data-w="1067" data-h="1600" data-n="0531" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0531.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0531"></a><figcaption>0531</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0538.jpg" data-w="1067" data-h="1600" data-n="0538" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0538.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0538"></a><figcaption>0538</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0539.jpg" data-w="1067" data-h="1600" data-n="0539" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0539.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0539"></a><figcaption>0539</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0542.jpg" data-w="1067" data-h="1600" data-n="0542" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0542.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0542"></a><figcaption>0542</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0543.jpg" data-w="1067" data-h="1600" data-n="0543" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0543.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0543"></a><figcaption>0543</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0546.jpg" data-w="1067" data-h="1600" data-n="0546" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0546.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0546"></a><figcaption>0546</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0550.jpg" data-w="1067" data-h="1600" data-n="0550" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0550.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0550"></a><figcaption>0550</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0555.jpg" data-w="1067" data-h="1600" data-n="0555" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0555.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0555"></a><figcaption>0555</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0560.jpg" data-w="1067" data-h="1600" data-n="0560" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0560.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0560"></a><figcaption>0560</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0561.jpg" data-w="1067" data-h="1600" data-n="0561" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0561.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0561"></a><figcaption>0561</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0568.jpg" data-w="1067" data-h="1600" data-n="0568" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0568.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0568"></a><figcaption>0568</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0580.jpg" data-w="1067" data-h="1600" data-n="0580" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0580.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0580"></a><figcaption>0580</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0583.jpg" data-w="1067" data-h="1600" data-n="0583" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0583.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0583"></a><figcaption>0583</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0589.jpg" data-w="1067" data-h="1600" data-n="0589" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0589.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0589"></a><figcaption>0589</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0594.jpg" data-w="1067" data-h="1600" data-n="0594" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0594.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0594"></a><figcaption>0594</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0595.jpg" data-w="1067" data-h="1600" data-n="0595" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0595.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0595"></a><figcaption>0595</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0599.jpg" data-w="1067" data-h="1600" data-n="0599" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0599.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0599"></a><figcaption>0599</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0602.jpg" data-w="1067" data-h="1600" data-n="0602" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0602.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0602"></a><figcaption>0602</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0604.jpg" data-w="1067" data-h="1600" data-n="0604" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0604.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0604"></a><figcaption>0604</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0606.jpg" data-w="1067" data-h="1600" data-n="0606" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0606.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0606"></a><figcaption>0606</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0607.jpg" data-w="1067" data-h="1600" data-n="0607" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0607.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0607"></a><figcaption>0607</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0608.jpg" data-w="1067" data-h="1600" data-n="0608" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0608.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0608"></a><figcaption>0608</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0609.jpg" data-w="1067" data-h="1600" data-n="0609" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0609.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0609"></a><figcaption>0609</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0610.jpg" data-w="1067" data-h="1600" data-n="0610" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0610.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0610"></a><figcaption>0610</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0611.jpg" data-w="1067" data-h="1600" data-n="0611" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0611.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0611"></a><figcaption>0611</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0612.jpg" data-w="1067" data-h="1600" data-n="0612" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0612.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0612"></a><figcaption>0612</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0615.jpg" data-w="1067" data-h="1600" data-n="0615" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0615.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0615"></a><figcaption>0615</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0616.jpg" data-w="1067" data-h="1600" data-n="0616" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0616.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0616"></a><figcaption>0616</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0617.jpg" data-w="1067" data-h="1600" data-n="0617" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0617.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0617"></a><figcaption>0617</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0620.jpg" data-w="1067" data-h="1600" data-n="0620" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0620.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0620"></a><figcaption>0620</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0621.jpg" data-w="1067" data-h="1600" data-n="0621" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0621.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0621"></a><figcaption>0621</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0623.jpg" data-w="1067" data-h="1600" data-n="0623" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0623.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0623"></a><figcaption>0623</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0631.jpg" data-w="1067" data-h="1600" data-n="0631" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0631.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0631"></a><figcaption>0631</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0632.jpg" data-w="1067" data-h="1600" data-n="0632" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0632.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0632"></a><figcaption>0632</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0633.jpg" data-w="1067" data-h="1600" data-n="0633" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0633.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0633"></a><figcaption>0633</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0637.jpg" data-w="1067" data-h="1600" data-n="0637" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0637.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0637"></a><figcaption>0637</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0639.jpg" data-w="1600" data-h="1067" data-n="0639" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0639.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0639"></a><figcaption>0639</figcaption></figure>
+<figure class="frame" class="wide"><a href="images/_T1A0646.jpg" data-w="1600" data-h="1067" data-n="0646" data-chapter="Iron &amp; Smoke"><img src="images/thumbs/_T1A0646.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Em in the black dress and hat with the iron tripod, Iron &amp; Smoke, frame 0646"></a><figcaption>0646</figcaption></figure>
+</div></section>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+<section class="chapter" id="the-witch">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M32 8A24 24 0 1 0 32 56A26 26 0 0 1 32 8z"/>
+  <path d="M10.5 27c1.2-1.3 2.8-1.3 4 0"/>
+  <path d="M11.5 38c1 .8 2.5 .8 3.5 0"/>
+  <path d="M15.5 31c1 1 1 2.5 0 3.5"/>
+  <circle cx="11" cy="33" r="0.7" fill="currentColor"/>
+  <path d="M44 14l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M50 30v4M48 32h4"/>
+  <path d="M42 46l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+</svg>
+<p class="label">Chapter VI</p>
+<h2>The Witch</h2>
+<p class="deck">Close portraits. Wide-brimmed hat, choker and corset, a wand of twisted wood.</p>
+<p class="count">16 frames</p>
+</header>
+<div class="grid">
+<figure class="frame"><a href="images/_T1A0648.jpg" data-w="1067" data-h="1600" data-n="0648" data-chapter="The Witch"><img src="images/thumbs/_T1A0648.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0648"></a><figcaption>0648</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0655.jpg" data-w="1067" data-h="1600" data-n="0655" data-chapter="The Witch"><img src="images/thumbs/_T1A0655.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0655"></a><figcaption>0655</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0658.jpg" data-w="1067" data-h="1600" data-n="0658" data-chapter="The Witch"><img src="images/thumbs/_T1A0658.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0658"></a><figcaption>0658</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0663.jpg" data-w="1067" data-h="1600" data-n="0663" data-chapter="The Witch"><img src="images/thumbs/_T1A0663.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0663"></a><figcaption>0663</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0670.jpg" data-w="1067" data-h="1600" data-n="0670" data-chapter="The Witch"><img src="images/thumbs/_T1A0670.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0670"></a><figcaption>0670</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0675.jpg" data-w="1067" data-h="1600" data-n="0675" data-chapter="The Witch"><img src="images/thumbs/_T1A0675.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0675"></a><figcaption>0675</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0676.jpg" data-w="1067" data-h="1600" data-n="0676" data-chapter="The Witch"><img src="images/thumbs/_T1A0676.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0676"></a><figcaption>0676</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0679.jpg" data-w="1067" data-h="1600" data-n="0679" data-chapter="The Witch"><img src="images/thumbs/_T1A0679.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0679"></a><figcaption>0679</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0685.jpg" data-w="1067" data-h="1600" data-n="0685" data-chapter="The Witch"><img src="images/thumbs/_T1A0685.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0685"></a><figcaption>0685</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0690.jpg" data-w="1067" data-h="1600" data-n="0690" data-chapter="The Witch"><img src="images/thumbs/_T1A0690.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0690"></a><figcaption>0690</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0695.jpg" data-w="1067" data-h="1600" data-n="0695" data-chapter="The Witch"><img src="images/thumbs/_T1A0695.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0695"></a><figcaption>0695</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0700.jpg" data-w="1067" data-h="1600" data-n="0700" data-chapter="The Witch"><img src="images/thumbs/_T1A0700.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0700"></a><figcaption>0700</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0703.jpg" data-w="1067" data-h="1600" data-n="0703" data-chapter="The Witch"><img src="images/thumbs/_T1A0703.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0703"></a><figcaption>0703</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0716.jpg" data-w="1067" data-h="1600" data-n="0716" data-chapter="The Witch"><img src="images/thumbs/_T1A0716.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0716"></a><figcaption>0716</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0717.jpg" data-w="1067" data-h="1600" data-n="0717" data-chapter="The Witch"><img src="images/thumbs/_T1A0717.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0717"></a><figcaption>0717</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0719.jpg" data-w="1067" data-h="1600" data-n="0719" data-chapter="The Witch"><img src="images/thumbs/_T1A0719.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the black dress and wide-brimmed hat, The Witch, frame 0719"></a><figcaption>0719</figcaption></figure>
+</div></section>
+<svg class="divider" aria-hidden="true" focusable="false" viewBox="0 0 400 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 12h150" stroke-opacity="0.55"/>
+  <path d="M242 12h150" stroke-opacity="0.55"/>
+  <path d="M166 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M234 12l1.5 1.5-1.5 1.5-1.5-1.5z" fill="currentColor"/>
+  <path d="M178 6A7 7 0 1 0 178 18A8 8 0 0 1 178 6z"/>
+  <path d="M222 6A7 7 0 1 1 222 18A8 8 0 0 0 222 6z"/>
+  <path d="M200 3l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z"/>
+  <circle cx="189" cy="12" r="1" fill="currentColor"/>
+  <circle cx="211" cy="12" r="1" fill="currentColor"/>
+</svg>
+<section class="chapter" id="into-the-trees">
+<header class="ch-head">
+<svg class="ch-icon" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 16A16 16 0 1 0 18 48A20 20 0 0 1 18 16z"/>
+  <circle cx="32" cy="32" r="11"/>
+  <path d="M46 16A16 16 0 1 1 46 48A20 20 0 0 0 46 16z"/>
+  <path d="M32 8v3M32 53v3"/>
+</svg>
+<p class="label">Chapter VII</p>
+<h2>Into the Trees</h2>
+<p class="deck">Up into the old oak. The last light of the shoot.</p>
+<p class="count">12 frames</p>
+</header>
+<div class="grid">
+<figure class="frame"><a href="images/_T1A0720.jpg" data-w="1067" data-h="1600" data-n="0720" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0720.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0720"></a><figcaption>0720</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0730.jpg" data-w="1067" data-h="1600" data-n="0730" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0730.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0730"></a><figcaption>0730</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0758.jpg" data-w="1067" data-h="1600" data-n="0758" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0758.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0758"></a><figcaption>0758</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0762.jpg" data-w="1067" data-h="1600" data-n="0762" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0762.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0762"></a><figcaption>0762</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0772.jpg" data-w="1067" data-h="1600" data-n="0772" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0772.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0772"></a><figcaption>0772</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0778.jpg" data-w="1067" data-h="1600" data-n="0778" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0778.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0778"></a><figcaption>0778</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0803.jpg" data-w="1067" data-h="1600" data-n="0803" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0803.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0803"></a><figcaption>0803</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0804.jpg" data-w="1067" data-h="1600" data-n="0804" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0804.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0804"></a><figcaption>0804</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0833.jpg" data-w="1067" data-h="1600" data-n="0833" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0833.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0833"></a><figcaption>0833</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0840.jpg" data-w="1067" data-h="1600" data-n="0840" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0840.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0840"></a><figcaption>0840</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0861.jpg" data-w="1067" data-h="1600" data-n="0861" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0861.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0861"></a><figcaption>0861</figcaption></figure>
+<figure class="frame"><a href="images/_T1A0869.jpg" data-w="1067" data-h="1600" data-n="0869" data-chapter="Into the Trees"><img src="images/thumbs/_T1A0869.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Em in the oak tree, Into the Trees, frame 0869"></a><figcaption>0869</figcaption></figure>
+</div></section>
+</main>
+<footer>
+<div class="icons"><svg class="fi" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="32" cy="35" rx="2.6" ry="11"/>
+  <path d="M30 25c-3-4-7-6-11-6M34 25c3-4 7-6 11-6"/>
+  <path d="M29.5 29c-8-8-18-10-22-6c-2 4 2 10 6 12c6 2 12 0 16-2"/>
+  <path d="M34.5 29c8-8 18-10 22-6c2 4-2 10-6 12c-6 2-12 0-16-2"/>
+  <path d="M29.5 37c-6 2-12 6-12 12c0 3 4 4 7 2c3-2 4-6 5-10"/>
+  <path d="M34.5 37c6 2 12 6 12 12c0 3-4 4-7 2c-3-2-4-6-5-10"/>
+  <circle cx="18" cy="30" r="2"/>
+  <circle cx="46" cy="30" r="2"/>
+  <path d="M32 24v-2"/>
+</svg><svg class="fi" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M30 57c0-14 1-30 7-45"/>
+  <path d="M31 47c-7-1-11-5-11-12c7 0 11 4 11 12z"/>
+  <path d="M32 40c7-1 11-5 11-12c-7 0-11 4-11 12z"/>
+  <path d="M33 31c-6-1-9-4-9-10c6 0 9 3 9 10z"/>
+  <path d="M34.5 24c6-1 9-4 9-10c-6 0-9 3-9 10z"/>
+  <path d="M36 17c-4-1-6-3-6-8c4 0 6 2 6 8z"/>
+  <path d="M26 54h8"/>
+</svg><svg class="fi" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="32" cy="27" rx="17" ry="4"/>
+  <path d="M15 27c0 10 6 19 17 19s17-9 17-19"/>
+  <path d="M15 27l-4-3M49 27l4-3"/>
+  <path d="M24 45l-3 7M40 45l3 7M32 46v6"/>
+  <path d="M25 19c-2-3 2-5 0-8M32 17c-2-3 2-5 0-8M39 19c-2-3 2-5 0-8"/>
+  <path d="M47 11l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M16 13v4M14 15h4"/>
+</svg><svg class="fi" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M26 26h12v24H26z"/>
+  <path d="M26 30c2 3 4 4 4 8M38 33c-2 2-3 4-2 7"/>
+  <path d="M32 26v-4"/>
+  <path d="M32 22c-4-4-3-10 0-13c3 3 4 9 0 13z"/>
+  <path d="M32 19c-1.5-1.5-1-4 0-5c1 1 1.5 3.5 0 5z"/>
+  <path d="M22 50h20M24 50v4h16v-4"/>
+  <path d="M46 14l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M16 18v4M14 20h4"/>
+</svg><svg class="fi" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10 44c5 0 5-9 11-9s6 9 12 9 6-9 12-9c4 0 7 3 7 6c0 3-3 5-5 5"/>
+  <path d="M10 44c-2 0-3 1-3 2"/>
+  <circle cx="47" cy="39.5" r="0.9" fill="currentColor"/>
+  <path d="M52 37l4-2M56 35l-1-1M56 35l-1 1"/>
+  <circle cx="21" cy="38" r="0.8" fill="currentColor"/>
+  <circle cx="33" cy="41" r="0.8" fill="currentColor"/>
+  <circle cx="28" cy="44" r="0.8" fill="currentColor"/>
+  <circle cx="40" cy="38" r="0.8" fill="currentColor"/>
+  <path d="M30 18l1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+  <path d="M46 22v4M44 24h4"/>
+</svg><svg class="fi" aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 30h40l-4 20H16z"/>
+  <path d="M12 30c0-2 1-3 3-3h34c2 0 3 1 3 3"/>
+  <path d="M20 30c2-10 8-16 12-16s10 6 12 16"/>
+  <path d="M18 37h28M17 44h30"/>
+  <path d="M24 30l2 20M32 30v20M40 30l-2 20"/>
+  <path d="M26 27c-2-3-1-6 1-8M38 27c2-3 1-6-1-8"/>
+</svg></div>
+<p>Shot 5 October 2026 · 413 frames · photographs © JW · made with Storylight</p>
+</footer>
+<dialog id="lightbox" hidden aria-label="Photo viewer">
+<div class="lb-bar"><span id="lb-info"></span><button type="button" id="lb-close" aria-label="Close">&times;</button></div>
+<button type="button" class="lb-nav prev" id="lb-prev" aria-label="Previous photo">&#8249;</button>
+<img id="lb-img" alt="">
+<button type="button" class="lb-nav next" id="lb-next" aria-label="Next photo">&#8250;</button>
+<div class="lb-progress"><i id="lb-bar"></i></div>
+</dialog>
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('a[data-n]'));
+  var box = document.getElementById('lightbox');
+  var img = document.getElementById('lb-img');
+  var info = document.getElementById('lb-info');
+  var bar = document.getElementById('lb-bar');
+  var cur = -1, opener = null;
+
+  function show(i) {
+    cur = (i + links.length) % links.length;
+    var a = links[cur];
+    img.width = +a.dataset.w; img.height = +a.dataset.h;
+    img.src = a.href;
+    img.alt = 'Frame ' + a.dataset.n + ', ' + a.dataset.chapter;
+    info.textContent = 'frame ' + a.dataset.n + ' · ' + a.dataset.chapter + ' · ' + (cur + 1) + ' of ' + links.length;
+    bar.style.width = ((cur + 1) / links.length * 100) + '%';
+    [cur - 1, cur + 1].forEach(function (j) {
+      new Image().src = links[(j + links.length) % links.length].href;
+    });
+    history.replaceState(null, '', '#f' + a.dataset.n);
+  }
+  function open(i) {
+    opener = document.activeElement;
+    box.hidden = false;
+    if (!box.open) { try { box.show(); } catch (e) { box.setAttribute('open', ''); } }
+    document.body.classList.add('lb-open');
+    show(i);
+    document.getElementById('lb-close').focus();
+  }
+  function close() {
+    box.hidden = true; box.removeAttribute('open');
+    document.body.classList.remove('lb-open');
+    img.removeAttribute('src');
+    history.replaceState(null, '', location.pathname + location.search);
+    if (opener && opener.focus) opener.focus();
+  }
+
+  links.forEach(function (a, i) {
+    a.addEventListener('click', function (e) { e.preventDefault(); open(i); });
+  });
+  document.getElementById('lb-close').addEventListener('click', close);
+  document.getElementById('lb-prev').addEventListener('click', function () { show(cur - 1); });
+  document.getElementById('lb-next').addEventListener('click', function () { show(cur + 1); });
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'ArrowLeft') show(cur - 1);
+    else if (e.key === 'ArrowRight') show(cur + 1);
+    else if (e.key === 'Escape') { e.preventDefault(); close(); }
+    else if (e.key === 'Home') show(0);
+    else if (e.key === 'End') show(links.length - 1);
+  });
+  var x0 = null;
+  box.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  box.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 40) show(cur + (dx < 0 ? 1 : -1));
+  });
+
+  var m = /^#f(\d{4})$/.exec(location.hash);
+  if (m) {
+    for (var i = 0; i < links.length; i++) if (links[i].dataset.n === m[1]) { open(i); break; }
+  }
+
+  // current chapter highlight
+  if ('IntersectionObserver' in window) {
+    var idx = {};
+    document.querySelectorAll('.index a').forEach(function (a) { idx[a.dataset.target] = a; });
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (e.isIntersecting) {
+          Object.keys(idx).forEach(function (k) { idx[k].classList.remove('active'); });
+          idx[e.target.id].classList.add('active');
+        }
+      });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    document.querySelectorAll('.chapter').forEach(function (s) { io.observe(s); });
+  }
+})();
+
+</script>
+</body>
+</html>

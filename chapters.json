@@ -1,0 +1,1516 @@
+{
+ "title": "Witchy Photo Shoot with Em",
+ "date": "2026-10-05",
+ "photographer": "JW",
+ "hero": {
+  "landscape": "_T1A9841.jpg",
+  "portrait": "_T1A0663.jpg"
+ },
+ "og_source": "_T1A0162.jpg",
+ "chapters": [
+  {
+   "id": "the-gathering",
+   "title": "The Gathering",
+   "deck": "White dress, basket and herbs. Em works the hillside, gathering what the woods offer.",
+   "icon": "herb-sprig",
+   "frames": [
+    {
+     "file": "_T1A9075.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9076.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9080.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9082.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9094.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9095.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9101.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9102.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9106.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9113.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9120.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9144.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9145.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9146.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9148.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9149.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9150.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9156.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9159.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9177.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9193.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9195.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9198.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9199.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9200.jpg",
+     "movement": "Gathering"
+    },
+    {
+     "file": "_T1A9210.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9211.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9212.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9213.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9215.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9216.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9217.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9218.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9219.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9220.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9221.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9222.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9224.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9228.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9240.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9243.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9245.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9249.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9252.jpg",
+     "movement": "Power and the Stone"
+    },
+    {
+     "file": "_T1A9257.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9259.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9268.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9294.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9307.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9311.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9312.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9313.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9318.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9319.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9321.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9325.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9326.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9327.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9329.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9330.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9331.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9334.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9338.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9339.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9342.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9347.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9349.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9353.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9354.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9361.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9362.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9371.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9375.jpg",
+     "movement": "The Walk"
+    },
+    {
+     "file": "_T1A9391.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9393.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9394.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9395.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9398.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9402.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9405.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9406.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9407.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9408.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9412.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9416.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9417.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9418.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9419.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9421.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9422.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9423.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9424.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9428.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9437.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9438.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9440.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9443.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9446.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9450.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9453.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9463.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9468.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9472.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9474.jpg",
+     "movement": "Curiosity and Reaching"
+    },
+    {
+     "file": "_T1A9489.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9491.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9495.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9503.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9504.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9508.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9509.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9513.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9514.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9515.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9516.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9517.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9519.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9520.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9524.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9525.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9526.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9527.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9529.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9530.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9531.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9533.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9534.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9535.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9552.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9555.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9556.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9561.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9563.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9567.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9568.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9569.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9571.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9572.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9573.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9574.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9575.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9576.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9577.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9578.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9579.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9580.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9581.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9582.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9585.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9586.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9587.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9588.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9597.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9600.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9607.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9611.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9615.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9616.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9618.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9637.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9642.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9647.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9648.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9649.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9650.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9651.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9652.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9653.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9654.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9655.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9656.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9657.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9659.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9660.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9663.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9664.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9665.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9666.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9667.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9668.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9669.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9670.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9673.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9674.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9675.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9676.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9677.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9678.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9681.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9683.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9685.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9688.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9690.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9691.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9693.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9704.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9711.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9712.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9713.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9719.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9726.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9730.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9731.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9734.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9737.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9739.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9751.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9752.jpg",
+     "movement": "Among the Trees"
+    },
+    {
+     "file": "_T1A9756.jpg",
+     "movement": "Among the Trees"
+    }
+   ]
+  },
+  {
+   "id": "first-smoke",
+   "title": "First Smoke",
+   "deck": "The black dress, no hat yet. The cauldron is lit and stirred.",
+   "icon": "cauldron",
+   "frames": [
+    {
+     "file": "_T1A9764.jpg"
+    },
+    {
+     "file": "_T1A9768.jpg"
+    },
+    {
+     "file": "_T1A9773.jpg"
+    },
+    {
+     "file": "_T1A9775.jpg"
+    },
+    {
+     "file": "_T1A9776.jpg"
+    },
+    {
+     "file": "_T1A9782.jpg"
+    },
+    {
+     "file": "_T1A9783.jpg"
+    },
+    {
+     "file": "_T1A9786.jpg"
+    },
+    {
+     "file": "_T1A9787.jpg"
+    },
+    {
+     "file": "_T1A9788.jpg"
+    },
+    {
+     "file": "_T1A9789.jpg"
+    },
+    {
+     "file": "_T1A9790.jpg"
+    },
+    {
+     "file": "_T1A9791.jpg"
+    },
+    {
+     "file": "_T1A9794.jpg"
+    },
+    {
+     "file": "_T1A9795.jpg"
+    }
+   ]
+  },
+  {
+   "id": "the-cauldron",
+   "title": "The Cauldron",
+   "deck": "The hat goes on. Cauldron among the roots and the lichen-covered rock, hard afternoon light.",
+   "icon": "witch-hat",
+   "frames": [
+    {
+     "file": "_T1A9814.jpg"
+    },
+    {
+     "file": "_T1A9815.jpg"
+    },
+    {
+     "file": "_T1A9816.jpg"
+    },
+    {
+     "file": "_T1A9819.jpg"
+    },
+    {
+     "file": "_T1A9820.jpg"
+    },
+    {
+     "file": "_T1A9822.jpg"
+    },
+    {
+     "file": "_T1A9823.jpg"
+    },
+    {
+     "file": "_T1A9829.jpg"
+    },
+    {
+     "file": "_T1A9830.jpg"
+    },
+    {
+     "file": "_T1A9831.jpg"
+    },
+    {
+     "file": "_T1A9832.jpg"
+    },
+    {
+     "file": "_T1A9833.jpg"
+    },
+    {
+     "file": "_T1A9834.jpg"
+    },
+    {
+     "file": "_T1A9835.jpg"
+    },
+    {
+     "file": "_T1A9841.jpg"
+    },
+    {
+     "file": "_T1A9849.jpg"
+    },
+    {
+     "file": "_T1A9859.jpg"
+    },
+    {
+     "file": "_T1A9860.jpg"
+    },
+    {
+     "file": "_T1A9861.jpg"
+    },
+    {
+     "file": "_T1A9862.jpg"
+    },
+    {
+     "file": "_T1A9889.jpg"
+    },
+    {
+     "file": "_T1A9890.jpg"
+    },
+    {
+     "file": "_T1A9891.jpg"
+    },
+    {
+     "file": "_T1A9892.jpg"
+    },
+    {
+     "file": "_T1A9894.jpg"
+    },
+    {
+     "file": "_T1A9895.jpg"
+    },
+    {
+     "file": "_T1A9897.jpg"
+    },
+    {
+     "file": "_T1A9898.jpg"
+    },
+    {
+     "file": "_T1A9899.jpg"
+    },
+    {
+     "file": "_T1A9900.jpg"
+    },
+    {
+     "file": "_T1A9901.jpg"
+    },
+    {
+     "file": "_T1A9902.jpg"
+    },
+    {
+     "file": "_T1A9904.jpg"
+    },
+    {
+     "file": "_T1A9905.jpg"
+    },
+    {
+     "file": "_T1A9906.jpg"
+    },
+    {
+     "file": "_T1A9908.jpg"
+    },
+    {
+     "file": "_T1A9914.jpg"
+    },
+    {
+     "file": "_T1A9921.jpg"
+    },
+    {
+     "file": "_T1A9924.jpg"
+    },
+    {
+     "file": "_T1A9925.jpg"
+    },
+    {
+     "file": "_T1A9933.jpg"
+    },
+    {
+     "file": "_T1A9938.jpg"
+    },
+    {
+     "file": "_T1A9947.jpg"
+    },
+    {
+     "file": "_T1A9949.jpg"
+    },
+    {
+     "file": "_T1A9953.jpg"
+    },
+    {
+     "file": "_T1A9954.jpg"
+    },
+    {
+     "file": "_T1A9956.jpg"
+    },
+    {
+     "file": "_T1A9958.jpg"
+    },
+    {
+     "file": "_T1A9962.jpg"
+    },
+    {
+     "file": "_T1A9963.jpg"
+    },
+    {
+     "file": "_T1A9964.jpg"
+    },
+    {
+     "file": "_T1A9965.jpg"
+    },
+    {
+     "file": "_T1A9974.jpg"
+    },
+    {
+     "file": "_T1A9981.jpg"
+    },
+    {
+     "file": "_T1A9992.jpg"
+    },
+    {
+     "file": "_T1A0017.jpg"
+    },
+    {
+     "file": "_T1A0020.jpg"
+    },
+    {
+     "file": "_T1A0022.jpg"
+    },
+    {
+     "file": "_T1A0033.jpg"
+    },
+    {
+     "file": "_T1A0035.jpg"
+    },
+    {
+     "file": "_T1A0040.jpg"
+    },
+    {
+     "file": "_T1A0043.jpg"
+    },
+    {
+     "file": "_T1A0051.jpg"
+    },
+    {
+     "file": "_T1A0055.jpg"
+    },
+    {
+     "file": "_T1A0061.jpg"
+    },
+    {
+     "file": "_T1A0064.jpg"
+    },
+    {
+     "file": "_T1A0065.jpg"
+    },
+    {
+     "file": "_T1A0070.jpg"
+    },
+    {
+     "file": "_T1A0082.jpg"
+    },
+    {
+     "file": "_T1A0090.jpg"
+    },
+    {
+     "file": "_T1A0092.jpg"
+    },
+    {
+     "file": "_T1A0093.jpg"
+    },
+    {
+     "file": "_T1A0094.jpg"
+    },
+    {
+     "file": "_T1A0097.jpg"
+    },
+    {
+     "file": "_T1A0106.jpg"
+    },
+    {
+     "file": "_T1A0110.jpg"
+    },
+    {
+     "file": "_T1A0113.jpg"
+    },
+    {
+     "file": "_T1A0124.jpg"
+    },
+    {
+     "file": "_T1A0130.jpg"
+    },
+    {
+     "file": "_T1A0131.jpg"
+    },
+    {
+     "file": "_T1A0134.jpg"
+    },
+    {
+     "file": "_T1A0136.jpg"
+    },
+    {
+     "file": "_T1A0140.jpg"
+    },
+    {
+     "file": "_T1A0141.jpg"
+    },
+    {
+     "file": "_T1A0144.jpg"
+    },
+    {
+     "file": "_T1A0147.jpg"
+    },
+    {
+     "file": "_T1A0152.jpg"
+    },
+    {
+     "file": "_T1A0153.jpg"
+    },
+    {
+     "file": "_T1A0162.jpg"
+    },
+    {
+     "file": "_T1A0166.jpg"
+    },
+    {
+     "file": "_T1A0167.jpg"
+    }
+   ]
+  },
+  {
+   "id": "low-fire",
+   "title": "Low Fire",
+   "deck": "Hat off, seated in the ferns beside the smoking cauldron. The quiet, shadowed set.",
+   "icon": "candle",
+   "frames": [
+    {
+     "file": "_T1A0226.jpg"
+    },
+    {
+     "file": "_T1A0245.jpg"
+    },
+    {
+     "file": "_T1A0247.jpg"
+    },
+    {
+     "file": "_T1A0248.jpg"
+    },
+    {
+     "file": "_T1A0249.jpg"
+    },
+    {
+     "file": "_T1A0252.jpg"
+    },
+    {
+     "file": "_T1A0264.jpg"
+    },
+    {
+     "file": "_T1A0266.jpg"
+    },
+    {
+     "file": "_T1A0269.jpg"
+    },
+    {
+     "file": "_T1A0270.jpg"
+    },
+    {
+     "file": "_T1A0277.jpg"
+    },
+    {
+     "file": "_T1A0279.jpg"
+    },
+    {
+     "file": "_T1A0280.jpg"
+    },
+    {
+     "file": "_T1A0292.jpg"
+    },
+    {
+     "file": "_T1A0294.jpg"
+    },
+    {
+     "file": "_T1A0297.jpg"
+    },
+    {
+     "file": "_T1A0304.jpg"
+    },
+    {
+     "file": "_T1A0312.jpg"
+    },
+    {
+     "file": "_T1A0313.jpg"
+    },
+    {
+     "file": "_T1A0315.jpg"
+    },
+    {
+     "file": "_T1A0371.jpg"
+    },
+    {
+     "file": "_T1A0391.jpg"
+    },
+    {
+     "file": "_T1A0397.jpg"
+    }
+   ]
+  },
+  {
+   "id": "iron-and-smoke",
+   "title": "Iron & Smoke",
+   "deck": "The iron tripod. Hat, staff and cauldron, backlit through the yellow leaves.",
+   "icon": "crystal-ball",
+   "frames": [
+    {
+     "file": "_T1A0478.jpg"
+    },
+    {
+     "file": "_T1A0484.jpg"
+    },
+    {
+     "file": "_T1A0485.jpg"
+    },
+    {
+     "file": "_T1A0488.jpg"
+    },
+    {
+     "file": "_T1A0508.jpg"
+    },
+    {
+     "file": "_T1A0511.jpg"
+    },
+    {
+     "file": "_T1A0516.jpg"
+    },
+    {
+     "file": "_T1A0520.jpg"
+    },
+    {
+     "file": "_T1A0529.jpg"
+    },
+    {
+     "file": "_T1A0531.jpg"
+    },
+    {
+     "file": "_T1A0538.jpg"
+    },
+    {
+     "file": "_T1A0539.jpg"
+    },
+    {
+     "file": "_T1A0542.jpg"
+    },
+    {
+     "file": "_T1A0543.jpg"
+    },
+    {
+     "file": "_T1A0546.jpg"
+    },
+    {
+     "file": "_T1A0550.jpg"
+    },
+    {
+     "file": "_T1A0555.jpg"
+    },
+    {
+     "file": "_T1A0560.jpg"
+    },
+    {
+     "file": "_T1A0561.jpg"
+    },
+    {
+     "file": "_T1A0568.jpg"
+    },
+    {
+     "file": "_T1A0580.jpg"
+    },
+    {
+     "file": "_T1A0583.jpg"
+    },
+    {
+     "file": "_T1A0589.jpg"
+    },
+    {
+     "file": "_T1A0594.jpg"
+    },
+    {
+     "file": "_T1A0595.jpg"
+    },
+    {
+     "file": "_T1A0599.jpg"
+    },
+    {
+     "file": "_T1A0602.jpg"
+    },
+    {
+     "file": "_T1A0604.jpg"
+    },
+    {
+     "file": "_T1A0606.jpg"
+    },
+    {
+     "file": "_T1A0607.jpg"
+    },
+    {
+     "file": "_T1A0608.jpg"
+    },
+    {
+     "file": "_T1A0609.jpg"
+    },
+    {
+     "file": "_T1A0610.jpg"
+    },
+    {
+     "file": "_T1A0611.jpg"
+    },
+    {
+     "file": "_T1A0612.jpg"
+    },
+    {
+     "file": "_T1A0615.jpg"
+    },
+    {
+     "file": "_T1A0616.jpg"
+    },
+    {
+     "file": "_T1A0617.jpg"
+    },
+    {
+     "file": "_T1A0620.jpg"
+    },
+    {
+     "file": "_T1A0621.jpg"
+    },
+    {
+     "file": "_T1A0623.jpg"
+    },
+    {
+     "file": "_T1A0631.jpg"
+    },
+    {
+     "file": "_T1A0632.jpg"
+    },
+    {
+     "file": "_T1A0633.jpg"
+    },
+    {
+     "file": "_T1A0637.jpg"
+    },
+    {
+     "file": "_T1A0639.jpg"
+    },
+    {
+     "file": "_T1A0646.jpg"
+    }
+   ]
+  },
+  {
+   "id": "the-witch",
+   "title": "The Witch",
+   "deck": "Close portraits. Wide-brimmed hat, choker and corset, a wand of twisted wood.",
+   "icon": "moon-face",
+   "frames": [
+    {
+     "file": "_T1A0648.jpg"
+    },
+    {
+     "file": "_T1A0655.jpg"
+    },
+    {
+     "file": "_T1A0658.jpg"
+    },
+    {
+     "file": "_T1A0663.jpg"
+    },
+    {
+     "file": "_T1A0670.jpg"
+    },
+    {
+     "file": "_T1A0675.jpg"
+    },
+    {
+     "file": "_T1A0676.jpg"
+    },
+    {
+     "file": "_T1A0679.jpg"
+    },
+    {
+     "file": "_T1A0685.jpg"
+    },
+    {
+     "file": "_T1A0690.jpg"
+    },
+    {
+     "file": "_T1A0695.jpg"
+    },
+    {
+     "file": "_T1A0700.jpg"
+    },
+    {
+     "file": "_T1A0703.jpg"
+    },
+    {
+     "file": "_T1A0716.jpg"
+    },
+    {
+     "file": "_T1A0717.jpg"
+    },
+    {
+     "file": "_T1A0719.jpg"
+    }
+   ]
+  },
+  {
+   "id": "into-the-trees",
+   "title": "Into the Trees",
+   "deck": "Up into the old oak. The last light of the shoot.",
+   "icon": "triple-moon",
+   "frames": [
+    {
+     "file": "_T1A0720.jpg"
+    },
+    {
+     "file": "_T1A0730.jpg"
+    },
+    {
+     "file": "_T1A0758.jpg"
+    },
+    {
+     "file": "_T1A0762.jpg"
+    },
+    {
+     "file": "_T1A0772.jpg"
+    },
+    {
+     "file": "_T1A0778.jpg"
+    },
+    {
+     "file": "_T1A0803.jpg"
+    },
+    {
+     "file": "_T1A0804.jpg"
+    },
+    {
+     "file": "_T1A0833.jpg"
+    },
+    {
+     "file": "_T1A0840.jpg"
+    },
+    {
+     "file": "_T1A0861.jpg"
+    },
+    {
+     "file": "_T1A0869.jpg"
+    }
+   ]
+  }
+ ]
+}
